@@ -1,0 +1,90 @@
+{
+  "fecha": "2026-11-02T19:03:22.541473+00:00",
+  "nota": "Preparación para pruebas visuales. Los logos y fotos conservan los derechos de sus titulares. No equivale a un archivo maestro de marca.",
+  "archivos": [
+    {
+      "archivo": "barra.webp",
+      "fuente": "investigacion/imagenes/florida-canillas.jpg",
+      "uso": "Fotografía pública de Florida: confirmar licencia y vigencia antes de publicar comercialmente."
+    },
+    {
+      "archivo": "fachada.webp",
+      "fuente": "investigacion/imagenes/florida-fachada.jpg",
+      "uso": "Fotografía pública de Florida: confirmar licencia y vigencia antes de publicar comercialmente."
+    },
+    {
+      "archivo": "salon.webp",
+      "fuente": "investigacion/imagenes/florida-salon.jpg",
+      "uso": "Fotografía pública de Florida: confirmar licencia y vigencia antes de publicar comercialmente."
+    },
+    {
+      "archivo": "madera-real.webp",
+      "fuente": "Recorte de madera de florida-canillas.jpg; no de la imagen adjunta por el usuario."
+    },
+    {
+      "archivo": "pizarra.webp",
+      "fuente": "Textura bitmap generada localmente, ruido de grafito/tiza; sin foto de terceros."
+    },
+    {
+      "archivo": "caveat-latin-600-normal.woff2",
+      "fuente": "https://cdn.jsdelivr.net/npm/@fontsource/caveat@5.2.6/files/caveat-latin-600-normal.woff2",
+      "licencia": "caveat-LICENSE.txt"
+    }
+  ],
+  "intento_alta": "El CDN no entregó una imagen mayor accesible; se conserva el original archivado.",
+  "logo": {
+    "original_archivado": "investigacion/imagenes/logo-instagram.jpg",
+    "fuente_utilizada": "logo-instagram-original.jpg",
+    "dimensiones_fuente": [
+      100,
+      100
+    ],
+    "metodo": "Ampliación Lanczos y enfoque suave del JPEG archivado; no recupera detalle inexistente ni constituye un vector oficial.",
+    "salidas": [
+      "logo-instagram-256.png",
+      "logo-instagram-1024.png"
+    ]
+  },
+  "hashes": {
+    "barra.webp": {
+      "bytes": 184814,
+      "sha256": "b0f59c086695a055adb413daab4d06c5bdd30f011de34da00f8cc9617a321f4b"
+    },
+    "caveat-latin-600-normal.woff2": {
+      "bytes": 51320,
+      "sha256": "d1883acb53b35d4fee7b79f76733b18fb6f7511ee77d1e8b90e9c82b2911ffc0"
+    },
+    "dibujos-pizarra.svg": {
+      "bytes": 2321,
+      "sha256": "4306e37dfc9418e9b96b921159ebd7d245f4069c9c19fbed5b724d63642f1888"
+    },
+    "fachada.webp": {
+      "bytes": 317296,
+      "sha256": "8f9a5a4f0ef9fe8929f7c9538a0c25b3937d5a31dca917121dbd3809f81e343e"
+    },
+    "logo-instagram-1024.png": {
+      "bytes": 482487,
+      "sha256": "14b6e569f6554f38004aa0e6d9c58047b72bbed52c1c1245673897f4867d66fc"
+    },
+    "logo-instagram-256.png": {
+      "bytes": 71819,
+      "sha256": "c22c1a444cf6a9ef3fd822189d591d94b55527e6d9e11262875c584a27658c42"
+    },
+    "logo-instagram-original.jpg": {
+      "bytes": 3253,
+      "sha256": "37630ef72a059cb45fe1b9db10f5739e2db62dfa6d8e174b70839e33e487a2ae"
+    },
+    "madera-real.webp": {
+      "bytes": 12988,
+      "sha256": "62e016f623761623943010867969d3f2daed6c15006be8686e1fc97ffc33b750"
+    },
+    "pizarra.webp": {
+      "bytes": 20106,
+      "sha256": "6eb4e78f9f4ea56d90e85d34a505fc7b1129aa5f4363904ed566210c2b2c2644"
+    },
+    "salon.webp": {
+      "bytes": 192562,
+      "sha256": "5b31e3a5b955feb2861824b63f225370938926106823f05f32dc4c5af36890ec"
+    }
+  }
+}

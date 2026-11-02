@@ -1,9 +1,14 @@
 # Bucaré: investigación, manual y propuestas
 
-Entrega del **02/11/2026**. La web final del restaurante todavía no se implementó: esta entrega reúne información y opciones de marca para elegir antes de construirla.
+Entrega del **02/11/2026**. Diseño aprobado: **Índice**. Incluye dos sitios independientes: reemplazo de Linktree y cartas/promociones web. Las muestras originales se conservan intactas; ninguna entrega está publicada.
 
 ## Abrir primero
 
+- [Índice: reemplazo de Linktree](entregas/linktree/index.html).
+- [Índice: cartas y promociones web](entregas/carta-web/index.html).
+- [Documentación de las dos entregas](entregas/README.md).
+- [Muestras minimalistas conservadas](muestras/minimal/index.html).
+- [Serie anterior: cinco variantes de rojo, madera y pizarra](muestras/rojo-origen/index.html).
 - [Catálogo visual: 12 direcciones + 6 tratamientos tipográficos](propuestas/index.html).
 - [Informe del local](informes/01-informe-del-local.md).
 - [Cartas completas: 36 páginas, separadas por sucursal](informes/02-cartas-completas.md).
@@ -11,6 +16,49 @@ Entrega del **02/11/2026**. La web final del restaurante todavía no se implemen
 - [Análisis de las seis referencias](informes/04-referencias-de-diseno.md).
 
 El catálogo abre directamente como archivo HTML, sin servidor, y usa fuentes, fotos e iconos locales. Permite favoritos, filtros, descargar selección JSON e imprimir lo visible. Los favoritos se guardan en ese navegador cuando el almacenamiento local está disponible.
+
+## Entregas aprobadas
+
+Las carpetas `entregas/linktree/` y `entregas/carta-web/` tienen sus propios recursos, sin dependencias de ejecución externas. El primer sitio conserva exactamente los siete destinos originales, sin selector de propuestas ni JavaScript. El segundo cambia sólo los cuatro destinos de cartas/promos por páginas HTML y mantiene los tres WhatsApp.
+
+Cada carta web conserva 22 categorías y 116 productos, con precios por sucursal, descripciones y adicionales. Las tres promociones incluyen sus condiciones conocidas. Búsqueda progresiva, lectura sin JavaScript y datos JSON editables sin panel. El usuario autorizó el contenido descargado **como borrador**: faltan confirmar precios, promociones y moneda antes de publicar.
+
+[Guía de mantenimiento](entregas/carta-web/README.md) y [resultados de la verificación](entregas/verificacion/resultado.json). Se verificó que el original no cambió y que el reemplazo conserva el diseño aprobado. Las seis páginas se comprobaron a 1440/768/390/320 px. No se enviaron mensajes ni se desplegó ninguna versión.
+
+## Exploración minimalista
+
+El feedback conserva Rojo y roble como base, pero pide una experiencia mucho más simple y descarta su foto de inicio. Las nuevas propuestas mantienen los siete destinos originales y su orden, sin reservas internas ni funciones nuevas.
+
+| Variante | Tratamiento |
+| --- | --- |
+| Esencial | Cabecera roja y una única lista sobre blanco. Exploración previa. |
+| Índice | **Diseño elegido.** Más espacio en blanco, título editorial y enlaces en tres columnas en escritorio; lista en celular. Sin foto inicial. |
+| Pizarra sutil | Blanco y rojo, con una pizarra pequeña como único acento de madera. Sin foto inicial. |
+| El local | Una franja breve con la fachada real de Florida, distinta de la imagen descartada, seguida de los enlaces. |
+
+Se aplicó la claridad de Hozon, el espacio y fotografía del lugar de STILL / FORM, y el rojo dosificado de Tòpas, basándose en el [análisis previo de las referencias](informes/04-referencias-de-diseno.md). Sin bandas decorativas, animaciones, galerías, titulares repetidos ni secciones duplicadas de locales. El selector superior es sólo para comparar las propuestas.
+
+[Resultado de las dieciséis comprobaciones](muestras/minimal/verificacion.json), [Esencial en escritorio](muestras/minimal/capturas/esencial-desktop.png), [Esencial en celular](muestras/minimal/capturas/esencial-mobile.png) e [Índice en escritorio](muestras/minimal/capturas/indice-desktop.png). Además de enlaces, teclado, imágenes y tamaños, se verifica que haya acceso a los enlaces en la primera pantalla y que cada variante tenga sólo la portada prevista. Pruebas en Chromium; Safari y dispositivos físicos no comprobados.
+
+## Serie anterior: rojo, madera y pizarra
+
+Se conserva para comparar, sin reemplazar las muestras previas. Ambas series abren directamente como HTML, sin servidor ni nuevas dependencias de ejecución.
+
+| Variante | Tratamiento |
+| --- | --- |
+| Rojo y roble | Base elegida para simplificar; su foto inicial fue descartada. |
+| Barra nocturna | Carbón, rojo y tiza cálida; más ambiente de bar. |
+| Cartel de barrio | Más rojo, tipografía contundente y nombre centrado. |
+| Tiza y birra | Más pizarra y escritura a mano, manteniendo legibles los contactos. |
+| Sobremesa | Blanco, verde y tipografía editorial; más tranquilo, con presencia de Bucafé. |
+
+Las cinco preservan **los siete enlaces originales de Linktree y su orden**: promociones, tres cartas y tres contactos de WhatsApp. No hay formularios, calendario, reservas internas ni cambios en la organización del bar. No se enviaron mensajes para probarlos.
+
+El logo utilizado es el de Instagram, no el de Linktree: [original y ampliaciones con procedencia](assets/rojo-origen/README.md). La foto enviada se tomó como referencia visual; las fotografías incorporadas son las imágenes públicas de Florida ya archivadas en la investigación, no una copia del adjunto.
+
+[Decisiones de diseño](DESIGN.md), [resultado de las 20 comprobaciones de tamaño/variante](muestras/rojo-origen/verificacion.json), [captura de escritorio](muestras/rojo-origen/capturas/origen-desktop.png) y [captura de celular](muestras/rojo-origen/capturas/origen-mobile.png). Se comprobaron destinos, selector, fallback, teclado, movimiento reducido, imágenes, área táctil y desbordes en Chromium. No equivale a certificar Safari/iPhone ni accesibilidad completa.
+
+La variante elegida es Índice; el resto se conserva como exploración. Para publicar las entregas, confirmar datos, dominio/alojamiento y, de estar disponible, logo original de mayor calidad. No se necesita fotografía para el diseño elegido.
 
 ## PDF y versiones de lectura
 
@@ -51,6 +99,12 @@ Hay capturas individuales de las 12 variantes en escritorio y celular dentro de 
 | investigacion/imagenes | Logos, fotos públicas, lámina de contacto y vistas de PDFs |
 | investigacion/referencias | HTML y texto recuperados de las seis referencias; capturas y comprobaciones visuales |
 | propuestas | Catálogo interactivo, doce fichas, fuentes e iconos con licencias |
+| muestras/rojo-origen | Cinco variantes de la mini página, pruebas y capturas |
+| muestras/minimal | Exploración conservada: cuatro variantes, incluida la original de Índice |
+| entregas/linktree | Índice independiente con los siete destinos externos |
+| entregas/carta-web | Índice con cartas/promos HTML, datos editables y generación estática |
+| entregas/verificacion | Pruebas consolidadas y capturas de ambas entregas |
+| assets/rojo-origen | Logo Instagram original/ampliado, fotos WebP, madera, pizarra, dibujos y procedencia |
 | investigacion/herramientas | Dependencias locales de exportación y pruebas; no forman parte de la web del restaurante |
 
 ## Límites importantes
@@ -62,6 +116,29 @@ Precios y promociones están fechados al consultar, no confirmados comercialment
 Para completar lo bloqueado: exportación oficial de Meta entregada por el titular, horarios y condiciones escritos, logo vectorial, fotos actuales y enlaces Maps de Olivos/Tren. **No hace falta entregar contraseñas.**
 
 ## Reproducibilidad
+
+Para regenerar y verificar las entregas:
+
+```sh
+node --test entregas/carta-web/scripts/contenido.test.mjs
+node entregas/carta-web/scripts/generar.mjs
+node entregas/carta-web/scripts/generar.mjs --comprobar
+node entregas/verificar.mjs
+```
+
+Para comprobar la serie minimalista, usando el runner y el Playwright/Chromium ya instalados:
+
+```sh
+node muestras/rojo-origen/verificar.mjs muestras/minimal
+```
+
+Para comprobar la serie anterior:
+
+```sh
+node muestras/rojo-origen/verificar.mjs
+```
+
+Para repetir la investigación y sus documentos anteriores:
 
 ```sh
 node investigacion/descargar.mjs
@@ -75,4 +152,4 @@ Las primeras cuatro órdenes vuelven a consultar fuentes externas y pueden cambi
 
 Para repetir también las capturas externas de diseño: `node investigacion/exportar.mjs --referencias`. La última pasada registró timeouts de escritorio en tres referencias; los seis HTML y las capturas integradas anteriores siguen archivados. La exportación normal no necesita acceder a esas webs. Navegador: `node investigacion/herramientas/node_modules/playwright/cli.js install chromium`.
 
-Seleccionar una dirección no aprueba automáticamente un rediseño del logo. Primera recomendación: **12 Esencial Bucaré**, **01 Rojo de origen** o **02 Editorial de barrio**; **04/10** si se prioriza el lugar, y **08** como línea Bucafé.
+El usuario aprobó **Índice** y su separación en dos entregas. No se rediseñó el logo. La muestra original, las otras variantes y la investigación permanecen archivadas; sólo falta confirmar contenido comercial y publicación.

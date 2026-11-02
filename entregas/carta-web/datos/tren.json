@@ -1,0 +1,2001 @@
+{
+  "version": 1,
+  "estado": "borrador",
+  "fechaFuente": "2026-11-02",
+  "moneda": "ARS",
+  "fuente": "menu-tren.pdf",
+  "sucursal": {
+    "id": "tren",
+    "nombre": "Tren",
+    "direccion": "Av. Maipú 2298 · Plaza de los Inmigrantes, Olivos",
+    "whatsapp": "https://wa.me/5491165686545"
+  },
+  "condiciones": [
+    "-10% en efectivo, según carta publicada.",
+    "Happy hour de 18 a 20 hs en todos los estilos. La carta no indica el beneficio concreto."
+  ],
+  "categorias": [
+    {
+      "id": "buca-cero",
+      "nombre": "Buca Cero",
+      "grupo": "cervezas",
+      "notas": [],
+      "productos": [
+        {
+          "id": "buca-cero-1",
+          "nombre": "Cerveza Rubia Sin Alc.",
+          "descripcion": "Rubia dorada, suave y refrescante. Con todo el sabor de una buena birra, pero sin alcohol. De cuerpo liviano y final limpio, es ideal para disfrutar cualquier momento, sin compromisos. Color dorado, amargor bajo, fresca y liviana",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": "Pinta",
+              "importe": 7300
+            },
+            {
+              "presentacion": "Lata x473cc",
+              "importe": null
+            }
+          ],
+          "adicionales": [],
+          "pagina": 1
+        }
+      ]
+    },
+    {
+      "id": "lagers",
+      "nombre": "Lagers",
+      "grupo": "cervezas",
+      "notas": [],
+      "productos": [
+        {
+          "id": "lagers-1",
+          "nombre": "COSTANERA | Lager",
+          "descripcion": "Refrescante y de gran tomabilidad. 473 cc | 4.0 alc",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": "Pinta",
+              "importe": 7300
+            },
+            {
+              "presentacion": "Lata x473cc",
+              "importe": 7300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 1
+        }
+      ]
+    },
+    {
+      "id": "maltosas",
+      "nombre": "Maltosas",
+      "grupo": "cervezas",
+      "notas": [],
+      "productos": [
+        {
+          "id": "maltosas-1",
+          "nombre": "TIMBÓ | Nitro Porter",
+          "descripcion": "Oscura, nitrogenada y cremosa. Notas tostadas de chocolate y café. 473 cc | 6.2 alc",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": "Pinta",
+              "importe": 7700
+            },
+            {
+              "presentacion": "Lata x473cc",
+              "importe": 8000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 1
+        },
+        {
+          "id": "maltosas-2",
+          "nombre": "AMBAY | Blond Ale",
+          "descripcion": "Rubia clásica con notas suaves a malta pilsen. 473 cc | 4.5 alc",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": "Pinta",
+              "importe": 7300
+            },
+            {
+              "presentacion": "Lata x473cc",
+              "importe": 7300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 1
+        },
+        {
+          "id": "maltosas-3",
+          "nombre": "LUMA | Irish Red",
+          "descripcion": "Ámbar con notas a caramelo y toffee. 473 cc | 4.4 alc",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": "Pinta",
+              "importe": 7300
+            },
+            {
+              "presentacion": "Lata x473cc",
+              "importe": 7300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 1
+        },
+        {
+          "id": "maltosas-4",
+          "nombre": "MISTOL | Honey",
+          "descripcion": "Dulce balance. Dorada con miel pampeana. 473 cc | 5.3 alc",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": "Pinta",
+              "importe": 7300
+            },
+            {
+              "presentacion": "Lata x473cc",
+              "importe": 7300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 1
+        }
+      ]
+    },
+    {
+      "id": "sours",
+      "nombre": "Sours",
+      "grupo": "cervezas",
+      "notas": [],
+      "productos": [
+        {
+          "id": "sours-1",
+          "nombre": "MISTERIO DE PIRLONE | Kettle Sour",
+          "descripcion": "Cerveza levemente ácida y refrescante. Con frambuesa, mora y maracuyá. Ideal para quienes buscan algo diferente, liviano y refrescante . 400 cc | 3.6 alc",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": "Pinta",
+              "importe": 8500
+            },
+            {
+              "presentacion": "Lata x473cc",
+              "importe": null
+            }
+          ],
+          "adicionales": [],
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "pale-ales",
+      "nombre": "Pale ales",
+      "grupo": "cervezas",
+      "notas": [],
+      "productos": [
+        {
+          "id": "pale-ales-1",
+          "nombre": "ALNUS | APA",
+          "descripcion": "Refrescante, cítrica y tropical. Lúpulos Cashmere y Centennial. 453 cc | 5.2 alc",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": "Pinta",
+              "importe": 7700
+            },
+            {
+              "presentacion": "Lata x473cc",
+              "importe": 8000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 2
+        },
+        {
+          "id": "pale-ales-2",
+          "nombre": "VICENTE LOPEZ | APA",
+          "descripcion": "Candy sugar y lúpulo Citra. Notas a frutas de carozo y tropicales. 453 cc | 6.6 alc",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": "Pinta",
+              "importe": 7700
+            },
+            {
+              "presentacion": "Lata x473cc",
+              "importe": 8000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "ipas",
+      "nombre": "IPAs",
+      "grupo": "cervezas",
+      "notas": [],
+      "productos": [
+        {
+          "id": "ipas-1",
+          "nombre": "TARUMÁ | American IPA",
+          "descripcion": "Notas a frutas tropicales y cítricas. Lúpulo Mosaic, Simcoe. 453 cc | 6.2 alc",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": "Pinta",
+              "importe": 8500
+            },
+            {
+              "presentacion": "Lata x473cc",
+              "importe": 9000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 2
+        },
+        {
+          "id": "ipas-2",
+          "nombre": "NOSTALGIA DE VERANO | Session IPA",
+          "descripcion": "Suave y refrescante. Explotan los aromas cítricos y frutales de los lúpulos Sabro. 453 cc | 3.8 alc",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": "Pinta",
+              "importe": 8500
+            },
+            {
+              "presentacion": "Lata x473cc",
+              "importe": 9000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 2
+        },
+        {
+          "id": "ipas-3",
+          "nombre": "FIN DEL MILENIO | NEIPA",
+          "descripcion": "Todo el lúpulo, aroma y sabor que te puedas imaginar. Lúpulos Mosaic y Idaho 7. 400 cc | 6.3 alc",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": "Pinta",
+              "importe": null
+            },
+            {
+              "presentacion": "Lata x473cc",
+              "importe": null
+            }
+          ],
+          "adicionales": [],
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "para-picar",
+      "nombre": "Para picar",
+      "grupo": "cocina",
+      "notas": [],
+      "productos": [
+        {
+          "id": "para-picar-1",
+          "nombre": "PAPAS FRITAS",
+          "descripcion": "Con alioli y salsa picante sriracha.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 17300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 3
+        },
+        {
+          "id": "para-picar-2",
+          "nombre": "PAPAS PARMESANO",
+          "descripcion": "Con salsa de queso y panceta crocante.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 19400
+            }
+          ],
+          "adicionales": [],
+          "pagina": 3
+        },
+        {
+          "id": "para-picar-3",
+          "nombre": "EMPANADAS",
+          "descripcion": "Carne picada de roast beef. Fritas . 2 unidades.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 12000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 3
+        },
+        {
+          "id": "para-picar-4",
+          "nombre": "PROVOLETA",
+          "descripcion": "Con tomates horneados y rodaja de pan.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 17800
+            }
+          ],
+          "adicionales": [],
+          "pagina": 3
+        },
+        {
+          "id": "para-picar-5",
+          "nombre": "CHICKEN FINGERS",
+          "descripcion": "Bastoncitos de pollo.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 18900
+            }
+          ],
+          "adicionales": [],
+          "pagina": 3
+        },
+        {
+          "id": "para-picar-6",
+          "nombre": "BOCCONCINOS",
+          "descripcion": "Con focaccia, tomates cherry, aceitunas negras, nueces y rúcula.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 22600
+            }
+          ],
+          "adicionales": [],
+          "pagina": 3
+        },
+        {
+          "id": "para-picar-7",
+          "nombre": "HONGOS CONFITADOS",
+          "descripcion": "Champiñones, portobello, tomate cherry, papas rotas y rodaja de pan.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 21000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 3
+        },
+        {
+          "id": "para-picar-8",
+          "nombre": "NACHOS POWER",
+          "descripcion": "Con carne braseada, crema de parmesano, guacamole, pickle de cebolla morada y perejil.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 27300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 3
+        },
+        {
+          "id": "para-picar-9",
+          "nombre": "NACHOS VEGGIE",
+          "descripcion": "Con poroto negro refrito, crema de parmesano, guacamole, pickle de cebolla morada y perejil.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 24600
+            }
+          ],
+          "adicionales": [],
+          "pagina": 3
+        }
+      ]
+    },
+    {
+      "id": "pizzas",
+      "nombre": "Pizzas",
+      "grupo": "cocina",
+      "notas": [
+        "30 cm - 6 porciones"
+      ],
+      "productos": [
+        {
+          "id": "pizzas-1",
+          "nombre": "MOZZA",
+          "descripcion": "Mozzarella, parmesano, aceitunas y orégano.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 22000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 4
+        },
+        {
+          "id": "pizzas-2",
+          "nombre": "NAPOLITANA",
+          "descripcion": "Mozzarella, parmesano, tomate y provenzal.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 24100
+            }
+          ],
+          "adicionales": [],
+          "pagina": 4
+        },
+        {
+          "id": "pizzas-3",
+          "nombre": "CUATRO QUESOS",
+          "descripcion": "Mozzarella, parmesano, provolone y roquefort.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 26200
+            }
+          ],
+          "adicionales": [],
+          "pagina": 4
+        },
+        {
+          "id": "pizzas-4",
+          "nombre": "PROVO JAMÓN y MORRÓN",
+          "descripcion": "Provolone, mozzarella, parmesano, jamón y morrón.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 26200
+            }
+          ],
+          "adicionales": [],
+          "pagina": 4
+        },
+        {
+          "id": "pizzas-5",
+          "nombre": "PORTOBELLO",
+          "descripcion": "Mozzarella, parmesano, portobello y tomillo.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 27300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 4
+        }
+      ]
+    },
+    {
+      "id": "ensaladas",
+      "nombre": "Ensaladas",
+      "grupo": "cocina",
+      "notas": [],
+      "productos": [
+        {
+          "id": "ensaladas-1",
+          "nombre": "ENSALADA HUMMUS",
+          "descripcion": "Hummus de garbanzo, tomates cherry, aceitunas verdes, nueces, parmesano rallado, mix de verdes, semillas y rodaja de pan.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 18900
+            }
+          ],
+          "adicionales": [],
+          "pagina": 4
+        },
+        {
+          "id": "ensaladas-2",
+          "nombre": "ENSALADA HONGOS",
+          "descripcion": "Hongos confitados, tomates cherry, aceitunas negras, maní, roquefort, mix de verdes, semillas y rodaja de pan.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 18900
+            }
+          ],
+          "adicionales": [],
+          "pagina": 4
+        }
+      ]
+    },
+    {
+      "id": "tartas",
+      "nombre": "Tartas",
+      "grupo": "cocina",
+      "notas": [],
+      "productos": [
+        {
+          "id": "tartas-1",
+          "nombre": "TARTA DE JAMON Y QUESO",
+          "descripcion": "Mozzarella, provolone, parmesano, jamón cocido y orégano. Con ensalada.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 18300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 4
+        },
+        {
+          "id": "tartas-2",
+          "nombre": "TARTA DE ESPINACA RICOTA",
+          "descripcion": "Espinaca, ricota, mozzarella, parmesano. Con ensalada.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 18300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 4
+        }
+      ]
+    },
+    {
+      "id": "hamburguesas",
+      "nombre": "Hamburguesas",
+      "grupo": "cocina",
+      "notas": [],
+      "productos": [
+        {
+          "id": "hamburguesas-1",
+          "nombre": "PROMO BURGER + BIRRA",
+          "descripcion": "Burger simple, queso cheddar y salsa americana Cerveza a elección o gaseosa. No incluye papas fritas.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 17800
+            }
+          ],
+          "adicionales": [],
+          "pagina": 5
+        },
+        {
+          "id": "hamburguesas-2",
+          "nombre": "CLASSIC BACON Y CHEDDAR",
+          "descripcion": "Doble burger, queso cheddar, panceta, salsa americana y papas fritas.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 25200
+            }
+          ],
+          "adicionales": [],
+          "pagina": 5
+        },
+        {
+          "id": "hamburguesas-3",
+          "nombre": "TASTY",
+          "descripcion": "Doble burger, queso danbo, lechuga, tomate, pepinillo, salsa tasty y papas fritas.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 25200
+            }
+          ],
+          "adicionales": [],
+          "pagina": 5
+        },
+        {
+          "id": "hamburguesas-4",
+          "nombre": "ROQUE",
+          "descripcion": "Doble burger, queso azul, queso danbo, cebolla colorada, mayo alioli con pesto, rúcula y papas fritas.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 25200
+            }
+          ],
+          "adicionales": [],
+          "pagina": 5
+        }
+      ]
+    },
+    {
+      "id": "entre-panes",
+      "nombre": "Entre panes",
+      "grupo": "cocina",
+      "notas": [],
+      "productos": [
+        {
+          "id": "entre-panes-1",
+          "nombre": "POLLO CRISPY",
+          "descripcion": "Sándwich de pollo rebosado con panko, queso danbo, mayo alioli con pesto, lechuga, tomate y papas fritas.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 23100
+            }
+          ],
+          "adicionales": [],
+          "pagina": 5
+        },
+        {
+          "id": "entre-panes-2",
+          "nombre": "SETA CRISPY",
+          "descripcion": "Sándwich de Girgola rebozada con panko, queso danbo , mayo alioli con pesto, lechuga, tomate y papas fritas.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 24100
+            }
+          ],
+          "adicionales": [],
+          "pagina": 5
+        },
+        {
+          "id": "entre-panes-3",
+          "nombre": "CAMEMBERT",
+          "descripcion": "Ciabatta con queso camembert, rúcula, tomate, mayo alioli, pesto y papas rotas.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 24100
+            }
+          ],
+          "adicionales": [],
+          "pagina": 5
+        }
+      ]
+    },
+    {
+      "id": "platos",
+      "nombre": "Platos",
+      "grupo": "cocina",
+      "notas": [],
+      "productos": [
+        {
+          "id": "platos-1",
+          "nombre": "MILANESA DE POLLO",
+          "descripcion": "Con jamón, queso mozzarella y papas fritas.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 21000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 6
+        },
+        {
+          "id": "platos-2",
+          "nombre": "MILANESA DE BIFE DE CHORIZO",
+          "descripcion": "Dos milanesas, papas fritas y dos huevos fritos.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 26200
+            }
+          ],
+          "adicionales": [],
+          "pagina": 6
+        },
+        {
+          "id": "platos-3",
+          "nombre": "ESTOFADO DE TERNERA",
+          "descripcion": "Con ñoquis de ricota.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 25200
+            }
+          ],
+          "adicionales": [],
+          "pagina": 6
+        },
+        {
+          "id": "platos-4",
+          "nombre": "ÑOQUIS DE RICOTA",
+          "descripcion": "Con fileto o salsa mixta.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 17200
+            }
+          ],
+          "adicionales": [],
+          "pagina": 6
+        }
+      ]
+    },
+    {
+      "id": "postres",
+      "nombre": "Postres",
+      "grupo": "cocina",
+      "notas": [],
+      "productos": [
+        {
+          "id": "postres-1",
+          "nombre": "BROWNIE",
+          "descripcion": "Con salsa de chocolate, nueces y helado de americana.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 16000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 6
+        },
+        {
+          "id": "postres-2",
+          "nombre": "CRUMBLE",
+          "descripcion": "Con salsa de frutos rojos y helado de americana.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 16000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 6
+        }
+      ]
+    },
+    {
+      "id": "menu-ejecutivo",
+      "nombre": "Menú ejecutivo",
+      "grupo": "cocina",
+      "notas": [
+        "Todos los platos incluyen bebida y café.",
+        "La bebida puede ser agua, agua con gas, gaseosa,",
+        "limonada y pomelada. El Café es jarrito.",
+        "Valido de 10am a 18pm"
+      ],
+      "productos": [
+        {
+          "id": "menu-ejecutivo-1",
+          "nombre": "MOZZA",
+          "descripcion": "Mozzarella, parmesano, aceitunas y orégano.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 27800
+            }
+          ],
+          "adicionales": [],
+          "pagina": 7
+        },
+        {
+          "id": "menu-ejecutivo-2",
+          "nombre": "MILANESA DE POLLO",
+          "descripcion": "Con papas fritas.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 26900
+            }
+          ],
+          "adicionales": [],
+          "pagina": 7
+        },
+        {
+          "id": "menu-ejecutivo-3",
+          "nombre": "MILANESA DE BIFE DE CHORIZO",
+          "descripcion": "Con papas fritas.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 31400
+            }
+          ],
+          "adicionales": [],
+          "pagina": 7
+        },
+        {
+          "id": "menu-ejecutivo-4",
+          "nombre": "TARTA DE JAMON Y QUESO",
+          "descripcion": "Mozzarella, provolone, parmesano, jamón cocido y orégano. Con ensalada.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 24600
+            }
+          ],
+          "adicionales": [],
+          "pagina": 7
+        },
+        {
+          "id": "menu-ejecutivo-5",
+          "nombre": "TARTA DE ESPINACA RICOTA",
+          "descripcion": "Espinaca, ricota, mozzarella, parmesano. Con ensalada.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 24600
+            }
+          ],
+          "adicionales": [],
+          "pagina": 7
+        },
+        {
+          "id": "menu-ejecutivo-6",
+          "nombre": "ENSALADA HUMMUS",
+          "descripcion": "Hummus de garbanzo, tomates cherry, aceitunas verdes, nueces, parmesano rallado, mix de verdes, semillas y rodaja de pan.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 25200
+            }
+          ],
+          "adicionales": [],
+          "pagina": 7
+        },
+        {
+          "id": "menu-ejecutivo-7",
+          "nombre": "ENSALADA HONGOS",
+          "descripcion": "Hongos confitados, tomates cherry, aceitunas negras, maní, roquefort, mix de verdes, semillas y rodaja de pan.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 25200
+            }
+          ],
+          "adicionales": [],
+          "pagina": 7
+        },
+        {
+          "id": "menu-ejecutivo-8",
+          "nombre": "ÑOQUIS DE RICOTA",
+          "descripcion": "Con fileto o salsa mixta.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 24000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 7
+        }
+      ]
+    },
+    {
+      "id": "menu-infantil",
+      "nombre": "Menú infantil",
+      "grupo": "cocina",
+      "notas": [
+        "Todos los platos incluyen bebida.",
+        "La bebida puede ser agua, agua con gas, gaseosa,",
+        "limonada y pomelada. Valido de 10am a 18pm"
+      ],
+      "productos": [
+        {
+          "id": "menu-infantil-1",
+          "nombre": "CHICKEN CON FRITAS",
+          "descripcion": "Bastones de pollo y papas fritas.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 17800
+            }
+          ],
+          "adicionales": [],
+          "pagina": 7
+        },
+        {
+          "id": "menu-infantil-2",
+          "nombre": "HAMBURGUESA CON FRITAS",
+          "descripcion": "Hamburguesa simpre con queso, lechuga, tomate y papas fritas.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 18300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 7
+        }
+      ]
+    },
+    {
+      "id": "tragos",
+      "nombre": "Tragos",
+      "grupo": "bebidas",
+      "notas": [],
+      "productos": [
+        {
+          "id": "tragos-1",
+          "nombre": "FERNET",
+          "descripcion": "Branca | gaseosa.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 10300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 8
+        },
+        {
+          "id": "tragos-2",
+          "nombre": "TINTO DE VERANO",
+          "descripcion": "Malbec | gaseosa lima limón | menta | rodaja de limón.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 10300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 8
+        },
+        {
+          "id": "tragos-3",
+          "nombre": "VERMOUTH",
+          "descripcion": "Carpano Rosso | soda | rodaja de naranja.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 8800
+            }
+          ],
+          "adicionales": [],
+          "pagina": 8
+        },
+        {
+          "id": "tragos-4",
+          "nombre": "GIN TONIC",
+          "descripcion": "Beefeater | agua tónica | rodaja de limón.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 16400
+            }
+          ],
+          "adicionales": [],
+          "pagina": 8
+        },
+        {
+          "id": "tragos-5",
+          "nombre": "GIN TONIC",
+          "descripcion": "Blu Gin | agua tónica | rodaja de limón.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 10300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 8
+        },
+        {
+          "id": "tragos-6",
+          "nombre": "GARIBALDI",
+          "descripcion": "Campari | jugo de naranja | rodaja de naranja.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 9300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 8
+        },
+        {
+          "id": "tragos-7",
+          "nombre": "CYNAR JULEP",
+          "descripcion": "Cynar | menta | azúcar mascabo | jugo de pomelo | rodaja de pomelo.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 10300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 8
+        },
+        {
+          "id": "tragos-8",
+          "nombre": "APEROL SPRITZ",
+          "descripcion": "Aperol | espumante | soda | rodaja de naranja.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 15400
+            }
+          ],
+          "adicionales": [],
+          "pagina": 8
+        },
+        {
+          "id": "tragos-9",
+          "nombre": "MOJITO",
+          "descripcion": "Ron Havana | menta| lima| azúcar | soda.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 10700
+            }
+          ],
+          "adicionales": [],
+          "pagina": 8
+        },
+        {
+          "id": "tragos-10",
+          "nombre": "CAIPIROSKA",
+          "descripcion": "Absolut | lima | azúcar.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 10400
+            }
+          ],
+          "adicionales": [],
+          "pagina": 8
+        },
+        {
+          "id": "tragos-11",
+          "nombre": "CAIPIROSKA",
+          "descripcion": "Sernova | lima | azúcar.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 9300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 8
+        },
+        {
+          "id": "tragos-12",
+          "nombre": "NEGRONI",
+          "descripcion": "Campari | Carpano Rosso | Blu| rodaja de naranja.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 10700
+            }
+          ],
+          "adicionales": [],
+          "pagina": 8
+        },
+        {
+          "id": "tragos-13",
+          "nombre": "WHISKY CON COCA",
+          "descripcion": "Jameson| gaseosa cola.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 16500
+            }
+          ],
+          "adicionales": [],
+          "pagina": 8
+        },
+        {
+          "id": "tragos-14",
+          "nombre": "CUBA LIBRE",
+          "descripcion": "Ron Havana | gaseosa cola.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 10700
+            }
+          ],
+          "adicionales": [],
+          "pagina": 8
+        },
+        {
+          "id": "tragos-15",
+          "nombre": "ESPUMANTE",
+          "descripcion": "Trumpeter Extra Brut 750cc",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 41900
+            }
+          ],
+          "adicionales": [],
+          "pagina": 8
+        }
+      ]
+    },
+    {
+      "id": "vinos",
+      "nombre": "Vinos",
+      "grupo": "bebidas",
+      "notas": [],
+      "productos": [
+        {
+          "id": "vinos-1",
+          "nombre": "MALBEC",
+          "descripcion": "Fabre Montmayou Reserva",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 30200
+            }
+          ],
+          "adicionales": [],
+          "pagina": 9
+        },
+        {
+          "id": "vinos-2",
+          "nombre": "MALBEC",
+          "descripcion": "Cafayate Reserva-Etchart",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 28700
+            }
+          ],
+          "adicionales": [],
+          "pagina": 9
+        },
+        {
+          "id": "vinos-3",
+          "nombre": "COPA MALBEC",
+          "descripcion": "Cafayate Reserva-Etchart",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 8900
+            }
+          ],
+          "adicionales": [],
+          "pagina": 9
+        },
+        {
+          "id": "vinos-4",
+          "nombre": "CABERNET FRANC",
+          "descripcion": "Trumpeter-Rutini",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 35800
+            }
+          ],
+          "adicionales": [],
+          "pagina": 9
+        },
+        {
+          "id": "vinos-5",
+          "nombre": "PINOT NOIR",
+          "descripcion": "Reserva-Salentein",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 41900
+            }
+          ],
+          "adicionales": [],
+          "pagina": 9
+        },
+        {
+          "id": "vinos-6",
+          "nombre": "ROSADO",
+          "descripcion": "Amalaya Reserva",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 26500
+            }
+          ],
+          "adicionales": [],
+          "pagina": 9
+        },
+        {
+          "id": "vinos-7",
+          "nombre": "CHARDONNAY",
+          "descripcion": "Killka-Salentein",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 26500
+            }
+          ],
+          "adicionales": [],
+          "pagina": 9
+        },
+        {
+          "id": "vinos-8",
+          "nombre": "COPA CHARDONNAY",
+          "descripcion": "Killka-Salentein",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 8900
+            }
+          ],
+          "adicionales": [],
+          "pagina": 9
+        }
+      ]
+    },
+    {
+      "id": "otras-bebidas",
+      "nombre": "Otras bebidas",
+      "grupo": "bebidas",
+      "notas": [],
+      "productos": [
+        {
+          "id": "otras-bebidas-1",
+          "nombre": "AGUA",
+          "descripcion": "",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 5000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 9
+        },
+        {
+          "id": "otras-bebidas-2",
+          "nombre": "AGUA CON GAS",
+          "descripcion": "",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 5000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 9
+        },
+        {
+          "id": "otras-bebidas-3",
+          "nombre": "GASEOSA",
+          "descripcion": "Coca Cola - Coca Zero - Sprite - Sprite Zero - Tónica.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 5700
+            }
+          ],
+          "adicionales": [],
+          "pagina": 9
+        },
+        {
+          "id": "otras-bebidas-4",
+          "nombre": "LIMONADA",
+          "descripcion": "Limón - Jengibre - Menta.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 6300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 9
+        },
+        {
+          "id": "otras-bebidas-5",
+          "nombre": "POMELADA",
+          "descripcion": "Pomelo - Jengibre - Menta.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 6300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 9
+        },
+        {
+          "id": "otras-bebidas-6",
+          "nombre": "JUGO DE NARANJA",
+          "descripcion": "Exprimido natural.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 6100
+            }
+          ],
+          "adicionales": [],
+          "pagina": 9
+        },
+        {
+          "id": "otras-bebidas-7",
+          "nombre": "LICUADO FRUTILLA",
+          "descripcion": "Frutilla- Naranja.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 7300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 9
+        },
+        {
+          "id": "otras-bebidas-8",
+          "nombre": "LICUADO MANGO",
+          "descripcion": "Mango - Naranja.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 7800
+            }
+          ],
+          "adicionales": [],
+          "pagina": 9
+        },
+        {
+          "id": "otras-bebidas-9",
+          "nombre": "LICUADO BANANA",
+          "descripcion": "Banana- Leche.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 7800
+            }
+          ],
+          "adicionales": [],
+          "pagina": 9
+        }
+      ]
+    },
+    {
+      "id": "cafe",
+      "nombre": "Café",
+      "grupo": "bucafe",
+      "notas": [],
+      "productos": [
+        {
+          "id": "cafe-1",
+          "nombre": "ESPRESSO",
+          "descripcion": "Espresso doble.",
+          "vegetariano": false,
+          "presentacion": "en jarrito",
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 3900
+            }
+          ],
+          "adicionales": [],
+          "pagina": 10
+        },
+        {
+          "id": "cafe-2",
+          "nombre": "AMERICANO",
+          "descripcion": "Espresso doble y agua caliente,",
+          "vegetariano": false,
+          "presentacion": "en jarrito",
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 4300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 10
+        },
+        {
+          "id": "cafe-3",
+          "nombre": "CORTADO",
+          "descripcion": "Espresso simple cortado con leche.",
+          "vegetariano": false,
+          "presentacion": "en jarrito",
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 5000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 10
+        },
+        {
+          "id": "cafe-4",
+          "nombre": "CAFÉ CON LECHE",
+          "descripcion": "Espresso doble cortado con leche.",
+          "vegetariano": false,
+          "presentacion": "en taza",
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 5800
+            }
+          ],
+          "adicionales": [],
+          "pagina": 10
+        },
+        {
+          "id": "cafe-5",
+          "nombre": "LATTE",
+          "descripcion": "Espresso simple cortado con leche.",
+          "vegetariano": false,
+          "presentacion": "en taza",
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 5800
+            }
+          ],
+          "adicionales": [],
+          "pagina": 10
+        },
+        {
+          "id": "cafe-6",
+          "nombre": "CAPUCCINO",
+          "descripcion": "Espresso doble cortado con leche, cacao y canela.",
+          "vegetariano": false,
+          "presentacion": "en taza",
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 6000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 10
+        },
+        {
+          "id": "cafe-7",
+          "nombre": "ICED LATTE",
+          "descripcion": "Espresso doble cortado con leche y hielo.",
+          "vegetariano": false,
+          "presentacion": "en copa",
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 5800
+            }
+          ],
+          "adicionales": [],
+          "pagina": 10
+        },
+        {
+          "id": "cafe-8",
+          "nombre": "ESPRESOO TONIC",
+          "descripcion": "Espresso doble cortado con agua tónica y hielo.",
+          "vegetariano": false,
+          "presentacion": "en copa",
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 6100
+            }
+          ],
+          "adicionales": [],
+          "pagina": 10
+        },
+        {
+          "id": "cafe-9",
+          "nombre": "EXTRAS: Vainilla-Caramelo-Crema",
+          "descripcion": "",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 2000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 10
+        },
+        {
+          "id": "cafe-10",
+          "nombre": "SUBMARINO",
+          "descripcion": "Leche con chocolate",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 5600
+            }
+          ],
+          "adicionales": [],
+          "pagina": 10
+        },
+        {
+          "id": "cafe-11",
+          "nombre": "TÉ",
+          "descripcion": "Consultar opciones",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 3900
+            }
+          ],
+          "adicionales": [],
+          "pagina": 10
+        }
+      ]
+    },
+    {
+      "id": "dulce-y-salado",
+      "nombre": "Dulce y salado",
+      "grupo": "bucafe",
+      "notas": [],
+      "productos": [
+        {
+          "id": "dulce-y-salado-1",
+          "nombre": "TOSTADAS PALTA Y HUEVO",
+          "descripcion": "Pan de molde con semillas, palta, huevo y queso crema.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 14200
+            }
+          ],
+          "adicionales": [],
+          "pagina": 11
+        },
+        {
+          "id": "dulce-y-salado-2",
+          "nombre": "TOSTADAS HUMMUS",
+          "descripcion": "Pan de molde con semillas, hummus de garbanzo, tomates cherry, nueces y semillas.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 14200
+            }
+          ],
+          "adicionales": [],
+          "pagina": 11
+        },
+        {
+          "id": "dulce-y-salado-3",
+          "nombre": "PLATO DESAYUNO/MERIENDA",
+          "descripcion": "Pan de molde con semillas, palta, huevo revuelto. jamón cocido, tomate cherry y queso crema.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 16800
+            }
+          ],
+          "adicionales": [],
+          "pagina": 11
+        },
+        {
+          "id": "dulce-y-salado-4",
+          "nombre": "TOSTADO JyQ",
+          "descripcion": "Opción 1 : Pan de molde con semillas, Jamón, Queso, tomate y queso crema. Opción 2 : Ciabatta, Jamón, Queso, tomate y queso crema.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 8400
+            }
+          ],
+          "adicionales": [
+            {
+              "nombre": "Huevo Revuelto",
+              "importe": 2200
+            }
+          ],
+          "pagina": 11
+        },
+        {
+          "id": "dulce-y-salado-5",
+          "nombre": "TOSTADAS",
+          "descripcion": "Pan de molde con semillas, queso crema y mermelada de frutos rojos",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 6300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 11
+        },
+        {
+          "id": "dulce-y-salado-6",
+          "nombre": "BROWNIE",
+          "descripcion": "Con salsa de chocolate y nueces.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 8200
+            }
+          ],
+          "adicionales": [],
+          "pagina": 11
+        },
+        {
+          "id": "dulce-y-salado-7",
+          "nombre": "CRUMBLE DE MANZANA",
+          "descripcion": "Con salsa de frutos rojos",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 8200
+            }
+          ],
+          "adicionales": [],
+          "pagina": 11
+        },
+        {
+          "id": "dulce-y-salado-8",
+          "nombre": "MEDIALUNA",
+          "descripcion": "De manteca",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 2200
+            }
+          ],
+          "adicionales": [],
+          "pagina": 11
+        },
+        {
+          "id": "dulce-y-salado-9",
+          "nombre": "MEDIALUNA JAMÓN Y QUESO",
+          "descripcion": "De manteca con jamón y queso.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 2800
+            }
+          ],
+          "adicionales": [],
+          "pagina": 11
+        },
+        {
+          "id": "dulce-y-salado-10",
+          "nombre": "BUDÍN CARROT",
+          "descripcion": "",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 5000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 11
+        },
+        {
+          "id": "dulce-y-salado-11",
+          "nombre": "BUDÍN LIMÓN Y ARANDANO",
+          "descripcion": "",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 5000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 11
+        }
+      ]
+    },
+    {
+      "id": "combos",
+      "nombre": "Combos",
+      "grupo": "bucafe",
+      "notas": [
+        "Todos los combos vienen con latte en taza."
+      ],
+      "productos": [
+        {
+          "id": "combos-1",
+          "nombre": "COMBO 1",
+          "descripcion": "Café con 2 medialunas.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 9200
+            }
+          ],
+          "adicionales": [],
+          "pagina": 12
+        },
+        {
+          "id": "combos-2",
+          "nombre": "COMBO 2",
+          "descripcion": "Café con tostado. (molde con semillas o ciabatta).",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 12800
+            }
+          ],
+          "adicionales": [],
+          "pagina": 12
+        },
+        {
+          "id": "combos-3",
+          "nombre": "COMBO 3",
+          "descripcion": "Café con tostadas, queso crema y mermelada.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 10900
+            }
+          ],
+          "adicionales": [],
+          "pagina": 12
+        },
+        {
+          "id": "combos-4",
+          "nombre": "COMBO 4",
+          "descripcion": "Café con porción de budín.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 9700
+            }
+          ],
+          "adicionales": [],
+          "pagina": 12
+        },
+        {
+          "id": "combos-5",
+          "nombre": "COMBO 5",
+          "descripcion": "Café con porción de brownie o crumble.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 12600
+            }
+          ],
+          "adicionales": [],
+          "pagina": 12
+        },
+        {
+          "id": "combos-6",
+          "nombre": "COMBO 6",
+          "descripcion": "Café con 2 medialunas de JyQ.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 10300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 12
+        },
+        {
+          "id": "combos-7",
+          "nombre": "COMBO 7",
+          "descripcion": "Café con plato desayuno/merienda.",
+          "vegetariano": false,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 20300
+            }
+          ],
+          "adicionales": [],
+          "pagina": 12
+        },
+        {
+          "id": "combos-8",
+          "nombre": "COMBO 8",
+          "descripcion": "Café con tostadas palta y huevo.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 18000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 12
+        },
+        {
+          "id": "combos-9",
+          "nombre": "COMBO 9",
+          "descripcion": "Café con tostadas hummus.",
+          "vegetariano": true,
+          "presentacion": null,
+          "precios": [
+            {
+              "presentacion": null,
+              "importe": 18000
+            }
+          ],
+          "adicionales": [],
+          "pagina": 12
+        }
+      ]
+    }
+  ]
+}

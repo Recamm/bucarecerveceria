@@ -1,0 +1,5 @@
+{
+  "defecto": "esencial",
+  "variantes": ["esencial", "indice", "sutil", "local"],
+  "portadas": { "esencial": null, "indice": null, "sutil": null, "local": "fachada.webp" }
+}

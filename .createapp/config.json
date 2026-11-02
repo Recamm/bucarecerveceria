@@ -1,0 +1,29 @@
+{
+  "name": "bucarecerveceria",
+  "directory": ".",
+  "agent": "copilot",
+  "agents": [
+    "copilot"
+  ],
+  "stack": "web",
+  "template": "config-only",
+  "mode": "balanced",
+  "coordinator": "superpowers",
+  "testing": "balanced",
+  "autonomy": "autonomous",
+  "parallel": false,
+  "design": "balanced",
+  "database": "none",
+  "goal": "Web propia de Bucaré Cervecería para reemplazar Linktree: tres sucursales (Florida, Olivos/Brew Pub y Tren), cartas, promociones y reservas por WhatsApp. El workspace contiene investigación y un catálogo estático en HTML/CSS/JavaScript; aún no se eligió framework ni variante de diseño. Conservar informes/, investigacion/, propuestas/ y README.md. Consultar investigacion/negocio.json y los informes antes de publicar datos. El logo actual de Instagram es rojo, BU/CA/RÉ apilado; no confundirlo con el logo ilustrado de Linktree. No inventar horarios, stock, descuentos, historia ni atributos gastronómicos. Diseñar responsive, accesible, con SEO local, fotos reales y pruebas proporcionadas. No añadir backend, base de datos, tracking o dependencias de runtime sin necesidad. Mantener la instalación de skills acotada a este repositorio y no activar subagentes sin autorización.",
+  "skills": null,
+  "packs": [
+    "addy",
+    "anthropic",
+    "ponytail",
+    "superpowers",
+    "uiux"
+  ],
+  "vercel_react": false,
+  "vercel_web": true,
+  "vercel_composition": false
+}

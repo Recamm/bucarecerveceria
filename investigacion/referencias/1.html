@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#DFC821" />
+    <link rel="icon" href="/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/icons/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="/icons/favicon-16.png" sizes="16x16" type="image/png" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <!-- Google Analytics (GA4). Sits outside the SEO markers so every
+         prerendered route keeps it; client-side route changes are picked up
+         by GA4's enhanced measurement (history-change page views).
+
+         GA now loads ONLY after the visitor accepts analytics cookies in the
+         cookie banner (src/components/CookieBanner.jsx). Until then this
+         script defines a gtag() stub and window.yaasAnalytics and nothing
+         else: no request to googletagmanager.com or google-analytics.com, no
+         _ga* cookies, no page_view. The banner calls
+         window.yaasAnalytics.enable() on "Cool, got it" and .disable() on
+         "No thanks" (which also expires any _ga* cookies already set).
+
+         A returning visitor who accepted earlier (localStorage key
+         `yaas-cookie-consent`) gets gtag.js loaded from here, once the page
+         has finished loading and the browser is idle (the 175 KiB library is
+         not requested earlier: as an async <script> in the head it competed
+         with the app bundle for bandwidth and ran ~230-280ms of main-thread
+         work in the middle of the hero's start-up, PageSpeed mobile TBT).
+         Global Privacy Control (navigator.globalPrivacyControl) counts as
+         "No thanks": GA is never loaded for that visitor. -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      (function () {
+        var ID = 'G-L97RMT0WBK';
+        var enabled = false;
+        var injected = false;
+
+        function enable() {
+          if (enabled) return;
+          enabled = true;
+          window['ga-disable-' + ID] = false;
+          gtag('js', new Date());
+          gtag('config', ID);
+          if (injected) return;
+          injected = true;
+          var s = document.createElement('script');
+          s.async = true;
+          s.src = 'https://www.googletagmanager.com/gtag/js?id=' + ID;
+          document.head.appendChild(s);
+        }
+
+        // Deletes by name pattern only (_ga, _ga_*); values are never read.
+        // GA sets its cookies on the registrable domain, so every parent
+        // domain of the host is tried, as well as the host itself.
+        function disable() {
+          enabled = false;
+          window['ga-disable-' + ID] = true;
+          var names = [];
+          document.cookie.split(';').forEach(function (pair) {
+            var name = pair.split('=')[0].replace(/^\s+|\s+$/g, '');
+            if (name === '_ga' || name.indexOf('_ga_') === 0) names.push(name);
+          });
+          if (!names.length) return;
+          var labels = location.hostname.split('.');
+          var domains = [''];
+          for (var i = 0; i < labels.length - 1; i++) domains.push('; domain=' + labels.slice(i).join('.'));
+          names.forEach(function (name) {
+            domains.forEach(function (domain) {
+              document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + domain;
+            });
+          });
+        }
+
+        window.yaasAnalytics = { enable: enable, disable: disable };
+
+        var granted = false;
+        try {
+          var stored = JSON.parse(localStorage.getItem('yaas-cookie-consent'));
+          granted = !!stored && stored.analytics === 'granted';
+        } catch (e) {}
+        if (!granted || navigator.globalPrivacyControl === true) return;
+
+        function schedule() {
+          if ('requestIdleCallback' in window) requestIdleCallback(enable, { timeout: 5000 });
+          else setTimeout(enable, 3000);
+        }
+        if (document.readyState === 'complete') schedule();
+        else window.addEventListener('load', schedule, { once: true });
+      })();
+    </script>
+    <!-- Everything between the two markers below is swapped wholesale by
+         vite.config.js's `pageSeo` plugin for every route other than this
+         one (see staticRoutes()) — a whole-block regex replace against these
+         two HTML comments rather than a set of per-tag regexes, so a tag
+         added or reworded here never has to be matched again on the build
+         side. src/hooks/useSeo.js mirrors the same content at runtime, for a
+         client-side route change (flavor -> flavor) that never re-fetches
+         this file — see that hook's own comment for why both exist. Every
+         tag in the block carries data-seo="1" for exactly that hook: it
+         clears everything with that marker before writing its own, so the
+         static tags below are cleanly replaced rather than duplicated
+         alongside the runtime ones once React has hydrated. -->
+    <!-- SEO:BEGIN -->
+    <title>YAAS Energy — Zero-Sugar Energy Drink in 5 Bold Flavors</title>
+    <meta
+      name="description"
+      content="YAAS — zero-sugar, 5-calorie energy drink in 5 bold flavors: Citrus Lemon, Blueberry Rush, Wild Strawberry, Solar Orange, Green Apple. No crash."
+      data-seo="1"
+    />
+    <meta
+      name="keywords"
+      content="zero sugar energy drink, YAAS energy, low calorie energy drink, sugar free energy drink, energy drink flavors, 5 calorie energy drink"
+      data-seo="1"
+    />
+    <meta name="robots" content="index, follow" data-seo="1" />
+    <link rel="canonical" href="https://yaas-energy.com/" data-seo="1" />
+    <meta property="og:site_name" content="YAAS" data-seo="1" />
+    <meta property="og:type" content="website" data-seo="1" />
+    <meta property="og:title" content="YAAS Energy — Zero-Sugar Energy Drink in 5 Bold Flavors" data-seo="1" />
+    <meta
+      property="og:description"
+      content="YAAS — zero-sugar, 5-calorie energy drink in 5 bold flavors: Citrus Lemon, Blueberry Rush, Wild Strawberry, Solar Orange, Green Apple. No crash."
+      data-seo="1"
+    />
+    <meta property="og:url" content="https://yaas-energy.com/" data-seo="1" />
+    <meta property="og:locale" content="en_US" data-seo="1" />
+    <meta property="og:image" content="https://yaas-energy.com/images/og/cover.jpg" data-seo="1" />
+    <meta property="og:image:width" content="1920" data-seo="1" />
+    <meta property="og:image:height" content="1080" data-seo="1" />
+    <meta name="twitter:card" content="summary_large_image" data-seo="1" />
+    <meta name="twitter:title" content="YAAS Energy — Zero-Sugar Energy Drink in 5 Bold Flavors" data-seo="1" />
+    <meta
+      name="twitter:description"
+      content="YAAS — zero-sugar, 5-calorie energy drink in 5 bold flavors: Citrus Lemon, Blueberry Rush, Wild Strawberry, Solar Orange, Green Apple. No crash."
+      data-seo="1"
+    />
+    <meta name="twitter:image" content="https://yaas-energy.com/images/og/twitter.jpg" data-seo="1" />
+    <script type="application/ld+json" data-seo="1">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://yaas-energy.com/#organization",
+        "name": "YAAS",
+        "url": "https://yaas-energy.com/",
+        "logo": "https://yaas-energy.com/images/YAAS.svg",
+        "email": "yaas-energy@gmail.com",
+        "description": "YAAS is a zero-sugar, low-calorie energy drink brand in 5 bold flavors, made with real ingredients and caffeine — energy that works for you, not against you."
+      }
+    </script>
+    <script type="application/ld+json" data-seo="1">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://yaas-energy.com/#website",
+        "url": "https://yaas-energy.com/",
+        "name": "YAAS",
+        "publisher": { "@id": "https://yaas-energy.com/#organization" },
+        "inLanguage": "en-US"
+      }
+    </script>
+    <script type="application/ld+json" data-seo="1">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://yaas-energy.com/" }
+        ]
+      }
+    </script>
+    <script type="application/ld+json" data-seo="1">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is this an energy drink or a soda?",
+            "acceptedAnswer": { "@type": "Answer", "text": "It's an energy drink. Just without the sugar and without the junk — bold flavor, clean ingredients." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it really zero sugar?",
+            "acceptedAnswer": { "@type": "Answer", "text": "For real. 0 g sugar, 5 calories a can — the sweetness comes from the flavor, not syrup." }
+          },
+          {
+            "@type": "Question",
+            "name": "How much caffeine's in it?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Enough to give you a real boost — the exact amount's right there on the can, no surprises." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I drink it every day?",
+            "acceptedAnswer": { "@type": "Answer", "text": "You can, but like with any energy drink — know your limit and don't overdo it." }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the age limit?",
+            "acceptedAnswer": { "@type": "Answer", "text": "18+, no exceptions — same as any energy drink." }
+          },
+          {
+            "@type": "Question",
+            "name": "What's actually in YAAS?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Natural flavors, caffeine, B vitamins, and zero sugar — the full ingredient list is right on the can, no fine print." }
+          },
+          {
+            "@type": "Question",
+            "name": "Where can I buy it?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The list of stores and retailers is dropping here soon — follow us on social so you don't miss it." }
+          },
+          {
+            "@type": "Question",
+            "name": "How should I store it?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Somewhere cool, out of direct sunlight. Once it's open, keep it in the fridge and finish it within 24 hours." }
+          }
+        ]
+      }
+    </script>
+    <!-- SEO:END -->
+    <!-- Both self-hosted faces are preloaded. Without this, Bounded only starts
+         downloading once the CSS has been parsed and something needs it, so it
+         swaps in later than it has to; font-display: swap (styles/index.css)
+         already means nothing is render-blocked on either of them. -->
+    <link rel="preload" href="/fonts/Soledago.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/Bounded-Medium.woff2" as="font" type="font/woff2" crossorigin />
+    <!-- The can model, 147KB, is the last link in a four-deep chain the browser
+         can only discover by running it: index.js has to load and execute
+         before HomePage.js is asked for, which brings in Scene.js, which brings
+         in the chunk that finally calls useGLTF. Measured on PageSpeed, the
+         model did not start downloading until 1-2.5s in. The preload takes it
+         off that chain — it starts with the first bytes of the document and
+         downloads alongside the JS instead of after it.
+         `as="fetch"` with an anonymous crossorigin is what three's own
+         FileLoader ends up requesting, so the two match and the browser serves
+         the loader from this response rather than fetching the file twice
+         (checked in the network log: one request, not two).
+
+         The media query is not a formality. Preloading 147KB puts it in front
+         of the JS that actually paints the page, and on a phone's bandwidth
+         that is a straight loss: measured unconditionally, mobile LCP went
+         2330ms -> 3155ms and the score dropped 4 points, and fetchpriority="low"
+         did not buy it back. A preload only pays for itself where there is
+         bandwidth to spare, so it is asked for at the widths where the model
+         is also drawn largest. Below 1024 the link does not match, nothing is
+         preloaded, and the loader fetches the model exactly as it did before
+         (verified: same ~175ms start as with no preload at all). -->
+    <link rel="preload" href="/models/can.glb" as="fetch" crossorigin media="(min-width: 1024px)" />
+    <!-- Image preloads that depend on the route. They used to be static <link>s
+         here, but every route's HTML is a copy of this file, so the homepage's
+         hero stills (~250KB) were being fetched on every flavor page, where
+         nothing uses them, and the flavor page's own LCP image was not preloaded
+         at all.
+         - Homepage: the hero stills (LazyScene.jsx), by composition (<=959
+           mobile, >=1200 desktop; 960-1199 starts the Canvas at once). They are
+           the LCP candidate where WebGL has no GPU behind it and were only
+           requested once index.js had run and React had rendered them (measured
+           on a throttled phone: ~4s in, mobile LCP ~4.8s).
+         - Flavor pages: the full-bleed grain texture of the story section's
+           background (.background-texture). It is the LCP element there, a CSS
+           background that the browser only finds after the stylesheet is applied
+           and React has rendered the section (~1s in on a phone; LCP 5.5s). -->
+    <script>
+      (function () {
+        var B = '/', p = location.pathname.replace(/index.html$/, ''), urls = [], m;
+        if (p === B) {
+          m = innerWidth <= 959 ? 'mobile' : innerWidth >= 1200 ? 'desktop' : '';
+          if (m) ['strawberry', 'blueberry', 'orange'].forEach(function (id) { urls.push(B + 'images/hero/poster-' + m + '-' + id + '.webp'); });
+        } else if (p.indexOf(B + 'flavors/') === 0) {
+          urls.push(B + 'textures/bg-texture.webp');
+        }
+        urls.forEach(function (href) {
+          var l = document.createElement('link');
+          l.rel = 'preload'; l.as = 'image'; l.type = 'image/webp'; l.href = href; l.setAttribute('fetchpriority', 'high');
+          document.head.appendChild(l);
+        });
+      })();
+    </script>
+    <!-- The two @font-face rules live here rather than in styles/index.css, and
+         for the same reason the preloads above do: / is substituted at
+         build time, so one source works whether the build is served from the
+         root or from a sub-path.
+
+         Vite does NOT rebase a root-absolute url() inside CSS, which is what
+         made this necessary — styles/index.css had '/yaas/fonts/...' hardcoded
+         to make the Pages build work, and that 404'd on every other origin
+         including the dev server, so the real faces silently never loaded and
+         everything fell back to Arial Narrow / Helvetica. A relative url()
+         would be rebased, but these files are in public/ and so have no path
+         to be relative to.
+
+         font-display: swap, as before: nothing is render-blocked on either. -->
+    <style>
+      @font-face {
+        font-family: 'Soledago';
+        /* WOFF2 first (28.8 KiB, brotli-compressed) — same outlines as the
+           original TTF (114.8 KiB), just repackaged; the .ttf stays in
+           public/fonts/ purely as a format fallback for the handful of
+           browsers that don't support WOFF2 (none of this project's actual
+           targets), never fetched otherwise since the browser picks the
+           first src it can use. */
+        src:
+          url('/fonts/Soledago.woff2') format('woff2'),
+          url('/fonts/Soledago.ttf') format('truetype');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      /* Replaces Beiruti site-wide — see --font-beiruti in styles/index.css.
+         Name kept as 'Bounded' (not 'Beiruti') so it's obvious at a glance
+         which family is actually loaded when reading font stacks elsewhere. */
+      @font-face {
+        font-family: 'Bounded';
+        /* WOFF2 first (78.8 KiB vs the original .otf's 151 KiB) — same
+           fallback reasoning as Soledago above. */
+        src:
+          url('/fonts/Bounded-Medium.woff2') format('woff2'),
+          url('/fonts/Bounded-Medium.otf') format('opentype');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+      /* Same reasoning as the faces above, for the one image referenced from a
+         CSS url() rather than from JS: a custom property can carry a
+         base-resolved url() into any stylesheet, which / cannot reach
+         on its own. Used by .background-texture (styles/index.css) and
+         .screen2-bg-texture (styles/screen2.css). Assets referenced from JS go
+         through data/assetUrl.js instead and were never affected. */
+      :root {
+        --asset-bg-texture: url('/textures/bg-texture.webp');
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-BRGP4ayl.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DSoJKp6B.css">
+  <link rel="modulepreload" crossorigin href="/assets/HomePage-BbpAj-fQ.js"><link rel="modulepreload" crossorigin href="/assets/normalizeScroll-CZzpJOkP.js"></head>
+  <body>
+    <!-- First-load preloader (Figma 420:2). Plain markup + inline CSS/JS on
+         purpose: it paints in the very first frame, before the bundle has even
+         downloaded, and #root keeps rendering underneath it as usual.
+
+         Sizes are Figma px at the 1920x980 frame divided by that frame's own
+         hero scale (min(1860/1200, 980/650) = 1.5077), times --hero-scale — so
+         they track the site's stage exactly: edge 50.6 -> 33.56, can 416.4 ->
+         276.2, can pitch 360 -> 238.8, counter 30 -> 19.9.
+         The script below seeds --hero-scale with the SAME formula the app's
+         useHeroScale settles on — (width - 2 x side) / 1200, contain-fit
+         against the height, with side 100 from 1200px up and 10 below it (a
+         landscape tablet's gutter) — not the older 60px side margin it used to
+         carry: the two disagreed on any window where width is the binding side,
+         so the cans were drawn at one size and, a second later when React set
+         the real --hero-scale, resized. Keep the 20 and 200 in step with
+         NARROW_SIDE_MARGIN and SIDE_MARGIN, and 1200 with NARROW_BELOW
+         (hooks/useHeroScale.js).
+         7.444 = advance width of "LOADING ENERGY" in Soledago per px of
+         font-size (same idea as hero.css's 2.245 for "YAAS"). The line-heights
+         put the ink edges on the box edges: .7575 is Soledago's cap top, .636
+         Bounded's baseline, so both gaps read as exactly --pl-edge.
+         Below 1024 it follows the 390x850 phone frame (429:70) instead: --u is
+         one frame px, min'd against 100svh so the whole frame always fits above
+         a phone's bottom address bar, centred vertically. Title 80/1.1 on two
+         lines, can ink 319.4 tall at a 268.45 pitch, counter ink bottom 761.5.
+         'Soledago PL' carries font-display: block so the title is first
+         painted in its real face: a swap from the fallback moved its lines a
+         few px (a layout shift) on slow connections. But "block" also means
+         the browser holds the text INVISIBLE until the face arrives, up to
+         ~3s — and this title is the page's Largest Contentful Paint on a
+         phone, so on a real 4G connection PageSpeed measured 2.36s of it
+         sitting blank waiting for a 28.8KB download.
+         So the face below no longer points at that download. The build swaps
+         its src for a base64 subset of the very same file carrying only the
+         glyphs this one line needs (see criticalPath() in vite.config.js) —
+         ~4KB, inside the HTML, so it is there in the first frame no matter how
+         slow the connection is, and "block" costs nothing. The full
+         Soledago.woff2 preloaded above is untouched and still serves the rest
+         of the site (the wordmark, section headings) with font-display: swap.
+         In `vite dev` this stays a plain url() — the swap is a build step. -->
+    <!--
+         The cans in the marquee are WebP (quality 85, alpha kept at 100) rather
+         than the PNGs they were captured as: same pixels to the eye at the
+         ~151px they are drawn at, 67KB for the whole strip instead of 121KB,
+         and this is the one image set that is on the critical path — it is the
+         first thing the visitor sees. The .png files are still in
+         public/images/preloader/ as the capture originals; nothing fetches
+         them.
+
+         React waits on window.__yaasPreloader.done before the hero entrance
+         (HomePage) and calls .ready() once the hero scene has drawn a frame with
+         its label textures (CanRig onReady). Other routes: fonts + window load.
+         Either way the fade starts no later than 2s after navigation start. -->
+    <style>
+      @font-face{font-family:'Soledago PL';src:url(data:font/woff2;base64,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) format('woff2');font-display:block}
+      #pl{--s:var(--hero-scale,1);--pl-edge:calc(33.56px*var(--s));position:fixed;inset:0;width:100vw;z-index:9999;display:flex;flex-direction:column;justify-content:space-between;align-items:center;padding:var(--pl-edge) 0;box-sizing:border-box;overflow:hidden;container-type:inline-size;color:#fff;background:#f0907a url('/images/gradient-still.webp') 50%/cover;transition:opacity .4s}
+      #pl .t{font:400 calc((100vw - 2*var(--content-gutter,30px))/7.444)/.7575 'Soledago PL',Soledago,'Arial Narrow',sans-serif;font-size:calc((100cqw - 2*var(--content-gutter,30px))/7.444);text-transform:uppercase;white-space:nowrap;align-self:stretch;padding:0 var(--content-gutter,30px)}
+      #pl-r{align-self:stretch}
+      #pl-t{display:flex;width:max-content;animation:pl 30s linear infinite;will-change:transform}
+      #pl-t img{height:calc(276.2px*var(--s));width:auto;margin-right:calc(87.6px*var(--s))}
+      #pl-c{font:500 max(16px,calc(19.9px*var(--s)))/.636 Bounded,sans-serif;font-variant-numeric:tabular-nums;width:4em;height:.636em;text-align:center}
+      #pl-c i{font-style:normal;display:inline-block;width:.78em;text-align:center}
+      #pl .t br{display:none}
+      @media (max-width:1023px){
+        #pl{--u:min(calc(100vw/390),calc(100svh/850));justify-content:flex-start;padding:0}
+        #pl .t{margin-top:calc((100svh - 850*var(--u))/2 + 80*var(--u));font-size:calc(80*var(--u));line-height:1.1;text-align:center;padding:0}
+        #pl .t br{display:inline}
+        #pl-r{margin-top:calc(80.3*var(--u))}
+        #pl-t img{height:calc(319.4*var(--u));margin-right:calc(93.6*var(--u))}
+        #pl-c{margin-top:calc(86.7*var(--u));font-size:calc(30*var(--u))}
+      }
+      /* No page scrollbar while the overlay is up (first load and every page
+         change: RoutePreloader renders the same #pl). The overlay is a fixed
+         layer inside the page, and a scrollbar is drawn beside it, so it would
+         otherwise sit down the right edge of the loader. html AND body: once
+         html stops being overflow: visible, body's own overflow no longer
+         reaches the viewport and it would grow a scrollbar of its own. The
+         page is not scrollable under it anyway (the overlay swallows wheel,
+         touch and keys). */
+      html:has(#pl),html:has(#pl) body{overflow:hidden}
+      @keyframes pl{to{transform:translate3d(-50%,0,0)}}
+    </style>
+    <div id="pl"><div class="t" aria-hidden="true">loading<br> energy</div><div id="pl-r" aria-hidden="true"><div id="pl-t"></div></div><div id="pl-c" role="status" aria-live="polite"><i>0</i>%</div></div>
+    <script>
+      (function(){var w=window,d=document,o=d.getElementById('pl'),c=d.getElementById('pl-c'),B='/',
+      s=Math.min((innerWidth-(innerWidth<1200?20:200))/1200,innerHeight/650),F=['lemon','blueberry','strawberry','orange','apple'],
+      n=Math.ceil(2*innerWidth/(238.8*s)/5)*5,S=[15,27,38,45,57,76,90],ST=[],DU=[],q,x='',i,k,t=0,
+      home=location.pathname.replace(/index\.html$/,'')==B,hr=0,fr=0,bg=0,ld=0,rt=0,v0=0,sh=0,res,
+      EV=['wheel','touchmove','keydown'],now=function(){return performance.now()};
+      d.documentElement.style.setProperty('--hero-scale',s);
+      w.__yaasPreloader={done:new Promise(function(r){res=r}),ready:function(){hr=1;chk()}};
+      for(i=0;i<2*n;i++){k=B+'images/preloader/'+F[i%5];x+='<img src="'+k+'.webp" srcset="'+k+'-sm.webp 98w,'+k+'.webp 196w" sizes="(max-width:1023px) 196px,'+Math.ceil(151.2*s)+'px" width="196" height="358" decoding="async" fetchpriority="low" alt="">'}
+      d.getElementById('pl-t').innerHTML=x;
+      for(i=0;i<7;i++){ST[i]=t;DU[i]=.9-.08*i;t+=1.7-.12*i}q=1500/(ST[6]+DU[6]);
+      function pre(t){var v=0,i,p;for(i=0;i<7;i++){p=(t/q-ST[i])/DU[i];if(p<=0)break;v=(i?S[i-1]:0)+(S[i]-(i?S[i-1]:0))*Math.pow(2,10*Math.min(p,1)-10)}return v}
+      function blk(e){if(e.type!='keydown'||/^(Arrow|Page|Home|End| )/.test(e.key)){e.preventDefault();e.stopImmediatePropagation()}}
+      function chk(){if(fr&&(home?hr&&bg:ld))go()}
+      function go(){if(!rt){rt=Math.max(now(),350);v0=pre(rt)}}
+      function f(){var t=now(),p=rt&&t>=rt?Math.min(1,(t-rt)/250):-1,v=Math.floor(p<0?pre(t):v0+(100-v0)*(1-Math.pow(1-p,3)));
+      if(v!=sh){sh=v;c.innerHTML=(''+v).replace(/\d/g,'<i>$&</i>')+'%'}
+      if(p<1)return requestAnimationFrame(f);rs();o.style.opacity=0;
+      setTimeout(function(){o.remove();d.documentElement.style.paddingRight='';EV.forEach(function(e){w.removeEventListener(e,blk,true)});res()},400)}
+      /* Keeps the page the width it will have once the scrollbar comes back. The
+         overlay hides the scrollbar (html:has(#pl) above), so the page under it
+         is a scrollbar's width wider than it is about to be; when the bar returns
+         at removal everything would jump that much, mid-fade. So as the fade
+         starts — the overlay still opaque for its first frames — the page is
+         narrowed by the bar's width (only if it is tall enough to have one — read
+         off body too: with html overflow: hidden, body is what clips the page), and
+         at removal the padding goes as the bar arrives: same width either side.
+         The probe is how wide a classic scrollbar is here; overlay ones (phones,
+         macOS) measure 0 and nothing is done. */
+      function rs(){var pr=d.createElement('div'),de=d.documentElement,sw;pr.style.cssText='position:absolute;top:-999px;width:100px;height:100px;overflow:scroll';d.body.appendChild(pr);sw=pr.offsetWidth-pr.clientWidth;pr.remove();if(sw&&Math.max(de.scrollHeight,d.body.scrollHeight)>w.innerHeight+1)de.style.paddingRight=sw+'px'}
+      EV.forEach(function(e){w.addEventListener(e,blk,{passive:false,capture:true})});
+      Promise.all([d.fonts.load('1em "Soledago PL"'),d.fonts.load('500 1em Bounded')]).then(function(){return d.fonts.ready}).then(function(){fr=1;chk()},function(){fr=1;chk()});
+      k=new Image;k.onload=k.onerror=function(){bg=1;chk()};k.src=B+'images/gradient-still.webp';
+      w.addEventListener('load',function(){ld=1;chk()});
+      setTimeout(go,1700-now());requestAnimationFrame(f)})();
+    </script>
+    <div id="root"></div>
+  </body>
+</html>

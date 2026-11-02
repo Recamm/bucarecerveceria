@@ -1,0 +1,18 @@
+{
+  "nombre": "Bucaré Cervecería",
+  "fecha_consulta": "2026-11-02",
+  "instagram": {"usuario": "bucarecerveceria", "url": "https://www.instagram.com/bucarecerveceria/", "seguidores_texto_publicado": "16K", "seguidos": 751, "publicaciones": 487, "fuente": "Metadatos públicos archivados; el feed no fue accesible", "biografia": "🏭 BrewPub. Ugarte 2328 Olivos\n🏡 BucaFlori. San Martin 2800 Florida\n🚊 BucaTren. Av Maipu 2298 Plaza de los Inmigrantes\n📞Reservas y menu en el link"},
+  "sucursales": [
+    {"id": "florida", "nombre": "Florida", "alias_instagram": "BucaFlori", "direccion_linktree": "Av San Martin 2800", "direccion_maps": "Gral. José de San Martín 2800, B1602DFR Florida, Provincia de Buenos Aires", "whatsapp": "https://wa.me/5491141966543", "telefono_e164": "+5491141966543", "menu_local": "investigacion/originales/menu-florida.pdf", "maps": "https://www.google.com/maps?cid=1243224865490914839", "coordenadas": {"latitud": -34.5316847, "longitud": -58.4992896}, "horarios_semanales": null},
+    {"id": "olivos", "nombre": "Olivos / Brew Pub", "alias_instagram": "BrewPub", "direccion_linktree": "Gob Ugarte 2328", "localidad": "Olivos", "whatsapp": "https://wa.me/5491123266242", "telefono_e164": "+5491123266242", "menu_local": "investigacion/originales/menu-olivos.pdf", "maps_verificado": null, "horarios_semanales": null},
+    {"id": "tren", "nombre": "Tren", "alias_instagram": "BucaTren", "direccion_linktree": "Av Maipú 2298. Plaza Inmigrantes. Olivos", "whatsapp": "https://wa.me/5491165686545", "telefono_e164": "+5491165686545", "menu_local": "investigacion/originales/menu-tren.pdf", "maps_verificado": null, "horarios_semanales": null}
+  ],
+  "promociones": [
+    {"nombre": "Happy hour", "dias": "Todos los días", "desde": "18:00", "hasta": "20:00", "alcance": "Tres locales; todos los estilos", "beneficio_precio": null, "fuente": "promos.pdf, página 1"},
+    {"nombre": "Promo cumpleaños", "cervezas": ["Costanera", "Ambay", "Luma", "Mistol"], "precio_cerveza": 5500, "menu": [{"producto":"Nachos power","precio":24600},{"producto":"Nachos veggie","precio":22100},{"producto":"Papas fritas","precio":15600},{"producto":"Papas parmesano","precio":17500},{"producto":"Pizza Mozza","precio":19800},{"producto":"Pizza cuatro quesos","precio":23600},{"producto":"Pizza napolitana","precio":21700}], "condiciones": "Con DNI; dentro de la semana del cumpleaños", "sucursales_confirmadas": null, "fuente": "promos.pdf, página 2"},
+    {"nombre": "Promo latas", "packs": [{"cantidad": 6, "descuento_porcentaje":20},{"cantidad":12,"descuento_porcentaje":30}], "alcance": "Tres locales", "acumulable": null, "fuente": "promos.pdf, página 3"},
+    {"nombre": "Descuento efectivo", "descuento_porcentaje":10, "acumulable":null, "fuente": "Las tres cartas, página 1"}
+  ],
+  "maps_florida": {"categoria": "Cervecería al aire libre", "valoracion":4.3,"opiniones":3274,"fotos_anunciadas":1169,"plus_code":"FG92+87 Florida, Provincia de Buenos Aires","estado_horario_al_consultar":"Abierto · Cierra a la 1 a.m.","aviso":"Vista limitada. Valores variables; no extrapolar a otras sucursales."},
+  "pendientes": ["Horarios completos y feriados por sucursal", "Feed y destacados completos de Instagram", "Original vectorial y tipografía del logo actual", "Vigencia y acumulación de promociones", "Servicios, accesibilidad y alérgenos por sucursal", "Fichas Maps y fotos actuales de Brew Pub y Tren", "Dominio disponible, razón social, medios de pago y política de reservas"]
+}

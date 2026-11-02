@@ -1,0 +1,13 @@
+{
+  "fecha": "2026-11-02",
+  "metodo": "Playwright Chromium a 1440 x 1000 px. Segunda comprobación, posterior a navegación integrada de las seis referencias.",
+  "resultados": [
+    {"url": "https://yaas-energy.com/", "estado": "captura_obtenida", "archivo": "investigacion/referencias/capturas/1-desktop.png", "fuentes_observadas": ["Bounded", "Soledago", "Helvetica Neue"]},
+    {"url": "https://aestudio.studio/hozon", "estado": "captura_obtenida", "archivo": "investigacion/referencias/capturas/2-desktop.png", "fuentes_observadas": ["Arial", "Helvetica"]},
+    {"url": "https://stillform.homes/", "estado": "captura_obtenida", "archivo": "investigacion/referencias/capturas/3-desktop.png", "fuentes_observadas": ["Familjen Grotesk", "Instrument Serif"]},
+    {"url": "https://bar-topas.ch/", "estado": "timeout_navegacion_desktop", "error": "page.goto: Timeout 25000ms exceeded waiting until domcontentloaded", "respaldo": "HTML completo y captura integrada 4.png", "fuentes_observadas_integrada": ["Source Sans 3", "Archivo", "Barlow Condensed"]},
+    {"url": "https://henrietta.wearetattoodigital.com/", "estado": "timeout_navegacion_desktop", "error": "page.goto: Timeout 25000ms exceeded waiting until domcontentloaded", "respaldo": "HTML completo y captura integrada 5.png; carga parcial de hero", "fuentes_observadas_integrada": ["Sink", "Arial"]},
+    {"url": "https://the-family-rice-tray.vercel.app/", "estado": "timeout_captura_desktop", "error": "page.screenshot: Timeout 10000ms exceeded", "respaldo": "HTML completo y captura integrada 6.png", "fuentes_observadas_integrada": ["Be Vietnam Pro", "Big Shoulders Display"]}
+  ],
+  "nota": "Los timeouts de esta sesión no demuestran que los sitios fallen universalmente. No se validaron todos los flujos ni todas las páginas de las referencias."
+}

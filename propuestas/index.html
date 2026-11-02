@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Investigación de Bucaré Cervecería y doce direcciones visuales de marca, con material público y propuestas identificadas.">
+  <title>Bucaré | 12 direcciones de marca</title>
+  <link rel="stylesheet" href="fuentes.css">
+  <link rel="stylesheet" href="catalogo.css">
+  <script src="variantes.js" defer></script>
+  <script src="catalogo.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#direcciones">Ir a las propuestas</a>
+  <header class="masthead">
+    <div class="brand-heading">
+      <img src="../investigacion/imagenes/logo-instagram.jpg" alt="Avatar publicado por Bucaré en Instagram: BU / CA / RÉ en blanco sobre círculo rojo" width="64" height="64">
+      <div><p class="eyebrow">BUCARÉ CERVECERÍA · 02.11.2026</p><h1>Direcciones de marca</h1></div>
+    </div>
+    <nav aria-label="Documentación">
+      <a href="../informes/01-informe-del-local.html">El local <img src="iconos/arrow-up-right.svg" alt="" width="16" height="16"></a>
+      <a href="../informes/03-manual-de-marca.html">Manual <img src="iconos/arrow-up-right.svg" alt="" width="16" height="16"></a>
+      <a href="../informes/04-referencias-de-diseno.html">Referencias <img src="iconos/arrow-up-right.svg" alt="" width="16" height="16"></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="published" aria-labelledby="published-title">
+      <div class="published-title"><p class="eyebrow">PUNTO DE PARTIDA</p><h2 id="published-title">Una marca, dos versiones publicadas.</h2><p>Los dos archivos se conservan sin redibujar. Su coexistencia requiere confirmación de la cervecería.</p></div>
+      <figure><img src="../investigacion/imagenes/logo-instagram.jpg" alt="Logo rojo apilado de Instagram" width="96" height="96"><figcaption><strong>Instagram</strong><span>Actual en la fuente consultada</span><span>Rojo muestreado: #C1282D</span></figcaption></figure>
+      <figure><img src="../investigacion/imagenes/logo-publicado.jpg" alt="Logo ilustrado de Linktree, Bucaré Cervecería con serif blanca sobre motivos botánicos" width="96" height="96"><figcaption><strong>Linktree</strong><span>Ilustración y serif</span><span>Paleta distinta; no confundir fuentes</span></figcaption></figure>
+    </section>
+
+    <section class="selection-bar" aria-label="Selección de propuestas">
+      <div class="view-controls" role="group" aria-label="Vista">
+        <button type="button" data-view="todas" aria-pressed="true">Todas <span>12</span></button>
+        <button type="button" data-view="recomendadas" aria-pressed="false">Selección inicial</button>
+        <button type="button" data-view="favoritas" aria-pressed="false">Favoritas <span id="favorite-count">0</span></button>
+      </div>
+      <div class="tools">
+        <label class="filter-label" for="family-filter">Dirección</label>
+        <select id="family-filter"><option value="todas">Todas las familias</option></select>
+        <button id="download-selection" class="icon-button" type="button" title="Descargar selección en JSON" aria-label="Descargar selección en JSON" disabled><img src="iconos/download.svg" alt="" width="20" height="20"></button>
+        <button id="print-catalog" class="icon-button" type="button" title="Imprimir las propuestas visibles" aria-label="Imprimir las propuestas visibles"><img src="iconos/printer.svg" alt="" width="20" height="20"></button>
+      </div>
+    </section>
+
+    <p class="catalog-intro">12 propuestas de diseño, no identidades aprobadas. Fotografías públicas de Florida como material de estudio; precios, horarios y condiciones pendientes se detallan en el informe.</p>
+    <p id="selection-status" class="sr-only" aria-live="polite"></p>
+    <section id="direcciones" class="directions" aria-label="Variantes de marca"></section>
+    <p id="empty-state" class="empty-state" hidden>Sin propuestas en esta selección.</p>
+
+    <section class="logo-treatments" aria-labelledby="treatments-title">
+      <div><p class="eyebrow">EXPLORACIONES TIPOGRÁFICAS</p><h2 id="treatments-title">Seis tratamientos, ningún logo aprobado nuevo.</h2><p>Muestras de composición con tipografías de apoyo. No son calcos ni sustituyen los archivos originales.</p></div>
+      <div class="treatments-grid">
+        <figure class="treatment tratamiento-1"><div class="stacked-word">BU<br>CA<br>RÉ</div><figcaption>01 · Apilado sans<br>Archivo Black · propuesta</figcaption></figure>
+        <figure class="treatment tratamiento-2"><div class="horizontal-word">BUCARÉ</div><figcaption>02 · Horizontal sans<br>Space Grotesk · propuesta</figcaption></figure>
+        <figure class="treatment tratamiento-3"><div class="serif-word">Bucaré</div><figcaption>03 · Editorial serif<br>Instrument Serif · propuesta</figcaption></figure>
+        <figure class="treatment tratamiento-4"><div class="seal-word">BUCARÉ<span>CERVECERÍA</span></div><figcaption>04 · Sello tipográfico<br>Fraunces · propuesta</figcaption></figure>
+        <figure class="treatment tratamiento-5"><div class="condensed-word">BUCARÉ<span>BIRRA · COCINA</span></div><figcaption>05 · Condensado<br>Barlow Condensed · propuesta</figcaption></figure>
+        <figure class="treatment tratamiento-6"><div class="cafe-word">Bucafé<span>POR BUCARÉ</span></div><figcaption>06 · Línea de cafetería<br>Fraunces · propuesta</figcaption></figure>
+      </div>
+    </section>
+  </main>
+
+  <footer><strong>Bucaré · Investigación + propuesta</strong><p>Originales públicos, no archivos maestros. Colores RGB aproximados, no especificaciones oficiales. Fotos para investigación: confirmar permisos y vigencia antes de publicar.</p><a href="../README.md">Índice de la entrega <img src="iconos/arrow-up-right.svg" alt="" width="16" height="16"></a></footer>
+  <noscript><p class="empty-state">Las variantes requieren JavaScript. El manual y los informes completos también están disponibles en la carpeta de documentación.</p></noscript>
+</body>
+</html>

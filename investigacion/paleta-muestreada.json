@@ -1,0 +1,57 @@
+{
+  "metodo": "Cuantizaci\u00f3n adaptativa Pillow a 12 colores del avatar completo de Linktree. Incluye el blanco exterior al c\u00edrculo; no son colores oficiales ni tinta plana.",
+  "dimensiones": [
+    599,
+    599
+  ],
+  "colores": [
+    {
+      "hex": "#CF7550",
+      "porcentaje_imagen": 28.95
+    },
+    {
+      "hex": "#FEFEFE",
+      "porcentaje_imagen": 19.92
+    },
+    {
+      "hex": "#A53324",
+      "porcentaje_imagen": 17.51
+    },
+    {
+      "hex": "#7B3026",
+      "porcentaje_imagen": 12.49
+    },
+    {
+      "hex": "#742B21",
+      "porcentaje_imagen": 6.42
+    },
+    {
+      "hex": "#FDFBFA",
+      "porcentaje_imagen": 4.75
+    },
+    {
+      "hex": "#D58566",
+      "porcentaje_imagen": 2.67
+    },
+    {
+      "hex": "#7A3728",
+      "porcentaje_imagen": 2.39
+    },
+    {
+      "hex": "#C36041",
+      "porcentaje_imagen": 2.07
+    },
+    {
+      "hex": "#FBFFFD",
+      "porcentaje_imagen": 1.36
+    },
+    {
+      "hex": "#FFFEFB",
+      "porcentaje_imagen": 0.93
+    },
+    {
+      "hex": "#FFFFFF",
+      "porcentaje_imagen": 0.54
+    }
+  ]
+}

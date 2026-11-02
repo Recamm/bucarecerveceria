@@ -1,0 +1,218 @@
+[
+  {
+    "id": "linktree",
+    "url": "https://linktr.ee/bucarecerveceria",
+    "obtenido_en": "2026-11-02T17:41:44.378Z",
+    "archivo": "investigacion/linktree.html",
+    "exito": true,
+    "bytes": 257240,
+    "sha256": "1477273b81b0c64ab4d545b22330790959c2ba1dc94f0a5af742bade19d5ccae"
+  },
+  {
+    "id": "logo-linktree",
+    "url": "https://ugc.production.linktr.ee/XZcB6vSgCI1VtOXjrrqQ_FxC1HKNAVjFhcaC8",
+    "obtenido_en": "2026-11-02T17:41:44.559Z",
+    "archivo": "investigacion/imagenes/logo-publicado.jpg",
+    "exito": true,
+    "bytes": 74618,
+    "sha256": "6a18363b4d60bc4977b61be8e458bbbb2d6ff9fb9f0675904d75e70f2826c351",
+    "formato": "jpg"
+  },
+  {
+    "id": "promos",
+    "url": "https://drive.google.com/uc?export=download&id=1Agm-sVep0pn9RPAFKK11qtGNp5TQ6bIc",
+    "obtenido_en": "2026-11-02T17:41:46.641Z",
+    "archivo": "investigacion/originales/promos.pdf",
+    "exito": true,
+    "bytes": 847697,
+    "sha256": "bfd974aff37df56f5d71fc158a0ddf35bdfd5b8728f823d8cb633665b01ec68c",
+    "formato": "pdf",
+    "extraccion_texto": "investigacion/textos/promos.txt"
+  },
+  {
+    "id": "menu-florida",
+    "url": "https://drive.google.com/uc?export=download&id=1Xlz1YfI2ju6nCadaO_x22pyOWtavhdLQ",
+    "obtenido_en": "2026-11-02T17:41:49.078Z",
+    "archivo": "investigacion/originales/menu-florida.pdf",
+    "exito": true,
+    "bytes": 829300,
+    "sha256": "7ee671313e1d8e6589054a4e4cff9163c32a69e453e5f8208f2c126b6a8a2178",
+    "formato": "pdf",
+    "extraccion_texto": "investigacion/textos/menu-florida.txt"
+  },
+  {
+    "id": "menu-olivos",
+    "url": "https://drive.google.com/uc?export=download&id=179Uu4FwGRgxlInkv0MFer9T9i8FRhbfa",
+    "obtenido_en": "2026-11-02T17:41:51.737Z",
+    "archivo": "investigacion/originales/menu-olivos.pdf",
+    "exito": true,
+    "bytes": 829307,
+    "sha256": "1f35b0bf578d33ccf89c029733d459f97b66893f58da0596e58585eda288f931",
+    "formato": "pdf",
+    "extraccion_texto": "investigacion/textos/menu-olivos.txt"
+  },
+  {
+    "id": "menu-tren",
+    "url": "https://drive.google.com/uc?export=download&id=1HnEhqvLPPeV3-U1gIBh1jq98h5dazMGC",
+    "obtenido_en": "2026-11-02T17:41:54.682Z",
+    "archivo": "investigacion/originales/menu-tren.pdf",
+    "exito": true,
+    "bytes": 828906,
+    "sha256": "5ef58434999c48f324fdc0df7623fd6cba767e7ab919d94aafbdc80027e1f8d6",
+    "formato": "pdf",
+    "extraccion_texto": "investigacion/textos/menu-tren.txt"
+  },
+  {
+    "id": "instagram",
+    "url": "https://www.instagram.com/bucarecerveceria/",
+    "obtenido_en": "2026-11-02T17:41:55.651Z",
+    "archivo": "investigacion/instagram.html",
+    "exito": true,
+    "bytes": 698633,
+    "sha256": "ad7350b1c1d68aae633888b7aaba7e50ee209370a83b15b45d9aa6ba2eaec1ee"
+  },
+  {
+    "id": "maps",
+    "url": "https://maps.app.goo.gl/JHXBmbWirtWCVxE59",
+    "obtenido_en": "2026-11-02T17:41:57.444Z",
+    "archivo": "investigacion/maps.html",
+    "exito": true,
+    "bytes": 235810,
+    "sha256": "94c5a4c10bc226687994cc9936d6db558b1b4ac76edb8cb27608a5bb0dbed215"
+  },
+  {
+    "id": "referencia-1",
+    "url": "https://yaas-energy.com/",
+    "obtenido_en": "2026-11-02T17:41:58.562Z",
+    "archivo": "investigacion/referencias/1.html",
+    "exito": true,
+    "bytes": 33247,
+    "sha256": "864305fed92a0a0e7eca7f947ba5e2cda2ab7ee6a7c0be0f632126e05ca8908b"
+  },
+  {
+    "id": "referencia-2",
+    "url": "https://aestudio.studio/hozon",
+    "obtenido_en": "2026-11-02T17:41:59.183Z",
+    "archivo": "investigacion/referencias/2.html",
+    "exito": true,
+    "bytes": 13460,
+    "sha256": "499d3b672654c055212697728c4b7e54214505c05b4f9e1c6f59edcb76a55586"
+  },
+  {
+    "id": "referencia-3",
+    "url": "https://stillform.homes/",
+    "obtenido_en": "2026-11-02T17:42:00.375Z",
+    "archivo": "investigacion/referencias/3.html",
+    "exito": true,
+    "bytes": 71104,
+    "sha256": "3f473b4abdbf492afb44f8a5351eb313d20154827ea17774fcb380d19a62b7c8"
+  },
+  {
+    "id": "referencia-4",
+    "url": "https://bar-topas.ch/",
+    "obtenido_en": "2026-11-02T17:42:02.446Z",
+    "archivo": "investigacion/referencias/4.html",
+    "exito": true,
+    "bytes": 267673,
+    "sha256": "229af5e4213b966b447a9bdf59d2dcb557f3e19f5271b9450eab9ce2fdfa1079"
+  },
+  {
+    "id": "referencia-5",
+    "url": "https://henrietta.wearetattoodigital.com/",
+    "obtenido_en": "2026-11-02T17:42:03.044Z",
+    "archivo": "investigacion/referencias/5.html",
+    "exito": true,
+    "bytes": 304707,
+    "sha256": "b1e52100d9708f1875528cd34b28f291f0e55401156e99b704a0d35d357742a2"
+  },
+  {
+    "id": "referencia-6",
+    "url": "https://the-family-rice-tray.vercel.app/",
+    "obtenido_en": "2026-11-02T17:42:03.328Z",
+    "archivo": "investigacion/referencias/6.html",
+    "exito": true,
+    "bytes": 173514,
+    "sha256": "716babd1cbdbc389f3a3a17fbb68143a5bc9dc0e7ef75ca4cc3432c967ae2046"
+  },
+  {
+    "id": "foto-florida-salon",
+    "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SRW9RiZ2IyFfKbR00Md93yjvlFb553D4tV6RNB6DG73-Sf6RFZDSwlGaBs55MAjfq_XaPZcf8lBFBIiIV3-yjVpHZie4z3VJ-Jn4ZuGHodSk3i8i6rkQv6K3kcCLM5BpXwIs9Ljw=w1600",
+    "obtenido_en": "2026-11-02T17:44:05.961Z",
+    "archivo": "investigacion/imagenes/florida-salon.jpg",
+    "exito": true,
+    "bytes": 378700,
+    "sha256": "a862e1ffed1a999c7d2fe2da426d49bd0da1f25f86da615aa173ffac4b49aa54"
+  },
+  {
+    "id": "foto-florida-canillas",
+    "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T8nnVkeWbRwA3SCbs4iIb59pQEjL7Zb2aWhz05zhOzTs2GUvQVQwcoJEZ6QVAhttRQjGACprF_kxFDvuzQu_5E5rDXvSf2i2Ekle4lZ6z_Pmr0Ui59BOCHK_T6QennM6wQOQPR=w1600",
+    "obtenido_en": "2026-11-02T17:44:06.217Z",
+    "archivo": "investigacion/imagenes/florida-canillas.jpg",
+    "exito": true,
+    "bytes": 274174,
+    "sha256": "543d92144b312dfe7edb5bc9439fc8225e8e6d13fcaa69973f28f0b4cc599ee4"
+  },
+  {
+    "id": "foto-florida-fachada",
+    "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TuMCCngIAJ9FOtJrW2FUS6d1K37HqImHH54WeLaOdb3y04LM3I-dAEYsBqxrIn08oUXLwvA4Gt277b1TE0Rk_fnvuNumK4V06VJ-TOWUKuUt66aIl7hp1jQEJIs2y1l8tOXQ6WCg=w1600",
+    "obtenido_en": "2026-11-02T17:44:06.669Z",
+    "archivo": "investigacion/imagenes/florida-fachada.jpg",
+    "exito": true,
+    "bytes": 407829,
+    "sha256": "802bde3fe63d8ea97283a476b0880f67cb554df8230d7efab074953eab8d6c50"
+  },
+  {
+    "id": "foto-florida-detalle-1",
+    "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RbBzzWP-AtYe8_RHJ1EtePMSAue6Udm3WqovExlBaaJiwzHsNh_750XJ5k5vezkBlo5ACfmbHgmUNECddwetCbvggZFwwuA9YzAvzGqDHvzhtQtuOAlGfO-KaAWXMzDTtLY2pQ6uHdQxSq=w1600",
+    "obtenido_en": "2026-11-02T17:44:07.016Z",
+    "archivo": "investigacion/imagenes/florida-detalle-1.jpg",
+    "exito": true,
+    "bytes": 728574,
+    "sha256": "950ad705114c7dbfe170c01f98b8060dea174549e3cd7ccff22654d6f5b3f055"
+  },
+  {
+    "id": "foto-florida-detalle-2",
+    "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R5q5tUiBidO-dd8jHVpqphpKEh_v72EIQSuLlha7Fdb1QAccMow1Ou4LgWqsuwf858vlzbZQwBzBU8yN_avX5wdH4bUAV5BlQFCp2fSfiAjIRx1Jv5XPB_k7jPOsI0cjbeAuC8OzjCaqH4=w1600",
+    "obtenido_en": "2026-11-02T17:44:07.784Z",
+    "archivo": "investigacion/imagenes/florida-detalle-2.jpg",
+    "exito": true,
+    "bytes": 1771171,
+    "sha256": "11c2d7b7663a4cbe37f49769250455aa75f56093465eff190329a2e29fafbe1e"
+  },
+  {
+    "id": "foto-florida-detalle-3",
+    "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T0pzQphznrXUhlckQLkgpjZLRogEViIAGNdEvdv-zAMFyCO_nDCO1utQlZB-9LYVJJdZlWXUtfEq4nqqqf2S56IWJUUQU34_u-31kA5D_v674zDJPyGyveMPjEY7VmllAgaF-n_A=w1600",
+    "obtenido_en": "2026-11-02T17:44:08.643Z",
+    "archivo": "investigacion/imagenes/florida-detalle-3.jpg",
+    "exito": true,
+    "bytes": 1060432,
+    "sha256": "ebd949d2fb18dd567d4ab6afcff23eaf9a0241af79dcb1d3c984f9990e8b11e8"
+  },
+  {
+    "id": "foto-florida-detalle-4",
+    "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TluKY874saroGIxRUW1igeId-BiIoxrvxECr2ytoZoQRr5pj3mkfRT7EfXO87Wc3oBZFqzvEw4gSpjqBuUPo9Ga-B5wtldrU5tWOLZlvp9AVEmoVV8Ky6hBrDXpwwwocdds9I=w1600",
+    "obtenido_en": "2026-11-02T17:44:09.070Z",
+    "archivo": "investigacion/imagenes/florida-detalle-4.jpg",
+    "exito": true,
+    "bytes": 416183,
+    "sha256": "7ee8d7adf194c370edb59e03daf60f6b189f117a5a9add8db817422aa8c91af9"
+  },
+  {
+    "id": "foto-florida-detalle-5",
+    "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RRfQFaw0gTN5IFgs3Bob-jysRwbhiDMwj5qtHj5a3kEU0zoxNukea6YfTCr1UJ63yCLehHP0iR6NBIdgjBJ6cyRyL-zm3H7G3lhVrTTVj0AxjGoDhgRkzssezndhkYII3-0EOOaw=w1600",
+    "obtenido_en": "2026-11-02T17:44:09.566Z",
+    "archivo": "investigacion/imagenes/florida-detalle-5.jpg",
+    "exito": true,
+    "bytes": 432418,
+    "sha256": "0d31f94006df3747823576dfde549962ca3e4b0e7c52573e91873b909407d5ec"
+  },
+  {
+    "id": "logo-instagram",
+    "url": "https://scontent.cdninstagram.com/v/t51.2885-19/394035894_1269660130383132_7957094056061174899_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=103&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=CEULj-Sy_WgQ7kNvwF7ypkz&_nc_oc=Adry1-dnCEhDmreL_KKonBQPXC2SwNQG_iTYGPKgzQuutNuwMunDpwJNQ4FBlDK_2c4&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7fa02&oh=00_AQTah0f8ZZxf6uAzz0UApkmqdy7M0zaTyEvmwBhli6INEw&oe=6AEE9B45",
+    "obtenido_en": "2026-11-02T17:47:41.153186+00:00",
+    "archivo": "investigacion/imagenes/logo-instagram.jpg",
+    "exito": true,
+    "bytes": 3253,
+    "sha256": "37630ef72a059cb45fe1b9db10f5739e2db62dfa6d8e174b70839e33e487a2ae"
+  }
+]

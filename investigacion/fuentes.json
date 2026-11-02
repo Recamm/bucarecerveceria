@@ -1,0 +1,29 @@
+{
+  "marca": "Bucaré Cervecería",
+  "fecha_relevamiento": "2026-11-02",
+  "alcance": "Información pública accesible. No equivale a un inventario de publicaciones privadas, archivadas o inaccesibles.",
+  "fuentes_principales": [
+    {"id": "instagram", "url": "https://www.instagram.com/bucarecerveceria/", "estado_inicial": "Acceso público limitado por pantalla de registro"},
+    {"id": "linktree", "url": "https://linktr.ee/bucarecerveceria", "estado_inicial": "Accesible; siete enlaces comerciales visibles"},
+    {"id": "maps", "url": "https://maps.app.goo.gl/JHXBmbWirtWCVxE59", "estado_inicial": "Redirige a Bucaré Cervecería y Street View"}
+  ],
+  "documentos_linktree": [
+    {"id": "promos", "titulo": "Promos", "drive_id": "1Agm-sVep0pn9RPAFKK11qtGNp5TQ6bIc", "url": "https://drive.google.com/file/d/1Agm-sVep0pn9RPAFKK11qtGNp5TQ6bIc/view?usp=drive_link"},
+    {"id": "menu-florida", "titulo": "Menú Florida. Av San Martin 2800.", "drive_id": "1Xlz1YfI2ju6nCadaO_x22pyOWtavhdLQ", "url": "https://drive.google.com/file/d/1Xlz1YfI2ju6nCadaO_x22pyOWtavhdLQ/view?usp=drive_link"},
+    {"id": "menu-olivos", "titulo": "Menú Olivos. Gob Ugarte 2328.", "drive_id": "179Uu4FwGRgxlInkv0MFer9T9i8FRhbfa", "url": "https://drive.google.com/file/d/179Uu4FwGRgxlInkv0MFer9T9i8FRhbfa/view?usp=drive_link"},
+    {"id": "menu-tren", "titulo": "Menú Tren. Av Maipú 2298. Plaza Inmigrantes. Olivos.", "drive_id": "1HnEhqvLPPeV3-U1gIBh1jq98h5dazMGC", "url": "https://drive.google.com/file/d/1HnEhqvLPPeV3-U1gIBh1jq98h5dazMGC/view?usp=drive_link"}
+  ],
+  "reservas_linktree": [
+    {"etiqueta": "Reservas Florida", "url": "https://wa.me/5491141966543"},
+    {"etiqueta": "Reservas Brew Pub", "url": "https://wa.me/5491123266242"},
+    {"etiqueta": "Reservas Tren", "url": "https://wa.me/5491165686545"}
+  ],
+  "referencias_diseno": [
+    "https://yaas-energy.com/",
+    "https://aestudio.studio/hozon",
+    "https://stillform.homes/",
+    "https://bar-topas.ch/",
+    "https://henrietta.wearetattoodigital.com/",
+    "https://the-family-rice-tray.vercel.app/"
+  ]
+}

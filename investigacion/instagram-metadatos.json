@@ -1,0 +1,22 @@
+{
+  "bingbot": "noarchive",
+  "robots": "noarchive, noimageindex",
+  "apple-mobile-web-app-status-bar-style": "default",
+  "mobile-web-app-capable": "yes",
+  "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2, viewport-fit=cover",
+  "theme-color": "#000000",
+  "og:type": "profile",
+  "og:image": "https://scontent.cdninstagram.com/v/t51.2885-19/394035894_1269660130383132_7957094056061174899_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=103&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=CEULj-Sy_WgQ7kNvwF7ypkz&_nc_oc=Adry1-dnCEhDmreL_KKonBQPXC2SwNQG_iTYGPKgzQuutNuwMunDpwJNQ4FBlDK_2c4&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7fa02&oh=00_AQTah0f8ZZxf6uAzz0UApkmqdy7M0zaTyEvmwBhli6INEw&oe=6AEE9B45",
+  "og:title": " (@bucarecerveceria) • Instagram photos and videos",
+  "og:url": "https://www.instagram.com/bucarecerveceria/",
+  "og:description": "16K Followers, 751 Following, 487 Posts - See Instagram photos and videos from  (@bucarecerveceria)",
+  "description": "16K Followers, 751 Following, 487 Posts - @bucarecerveceria on Instagram: \"🏭 BrewPub. Ugarte 2328 Olivos\n🏡 BucaFlori. San Martin 2800 Florida\n🚊 BucaTren. Av Maipu 2298 Plaza de los Inmigrantes\n📞Reservas y menu en el link\"",
+  "al:ios:app_name": "Instagram",
+  "al:ios:app_store_id": "389801252",
+  "al:ios:url": "instagram://user?username=bucarecerveceria",
+  "al:android:app_name": "Instagram",
+  "al:android:package": "com.instagram.android",
+  "al:android:url": "https://instagram.com/_u/bucarecerveceria/",
+  "application-title": "Instagram",
+  "color-scheme": "light"
+}

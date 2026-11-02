@@ -1,0 +1,29 @@
+{
+  "metodo": "Cuantizaci\u00f3n adaptativa Pillow a 5 colores del JPEG p\u00fablico de Instagram, incluyendo blanco exterior y antialiasing. Aproximaci\u00f3n RGB, no especificaci\u00f3n oficial.",
+  "dimensiones": [
+    100,
+    100
+  ],
+  "colores": [
+    {
+      "hex": "#C1282D",
+      "porcentaje_imagen": 47.34
+    },
+    {
+      "hex": "#FDFBFA",
+      "porcentaje_imagen": 29.46
+    },
+    {
+      "hex": "#B7252B",
+      "porcentaje_imagen": 10.22
+    },
+    {
+      "hex": "#C2262D",
+      "porcentaje_imagen": 8.27
+    },
+    {
+      "hex": "#C64D51",
+      "porcentaje_imagen": 4.71
+    }
+  ]
+}

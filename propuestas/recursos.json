@@ -1,0 +1,191 @@
+[
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/dm-sans@latest/files/dm-sans-latin-400-normal.woff2",
+    "archivo": "propuestas/fuentes/dm-sans-latin-400-normal.woff2",
+    "bytes": 14200,
+    "sha256": "4ab51eb2cd7305d177187908d6397474d4520663f6c6e572feb0a64f4fa80006",
+    "fecha": "2026-11-02T17:56:03.278Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/dm-sans@latest/files/dm-sans-latin-600-normal.woff2",
+    "archivo": "propuestas/fuentes/dm-sans-latin-600-normal.woff2",
+    "bytes": 14144,
+    "sha256": "6bb2b2645ba5eeaecf56322c543fa3a75b87b927977b9c03b1dabc4205089120",
+    "fecha": "2026-11-02T17:56:03.351Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/dm-sans@latest/files/dm-sans-latin-700-normal.woff2",
+    "archivo": "propuestas/fuentes/dm-sans-latin-700-normal.woff2",
+    "bytes": 14348,
+    "sha256": "35c5efa0e5daa52ee5c6500f5be354bf751fb65c4e49e1d6806c6eb5883e8fe9",
+    "fecha": "2026-11-02T17:56:03.416Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/archivo-black@latest/files/archivo-black-latin-400-normal.woff2",
+    "archivo": "propuestas/fuentes/archivo-black-latin-400-normal.woff2",
+    "bytes": 18604,
+    "sha256": "25f33e61cf995abd6be62931cf03bf427286259177b43618cc410ee0157cfd30",
+    "fecha": "2026-11-02T17:56:03.482Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/instrument-serif@latest/files/instrument-serif-latin-400-normal.woff2",
+    "archivo": "propuestas/fuentes/instrument-serif-latin-400-normal.woff2",
+    "bytes": 21032,
+    "sha256": "5eb09b5ac0e28b67c2f041c8ba6d244604ca0c0980d65912ab2d47fed84ddc31",
+    "fecha": "2026-11-02T17:56:03.538Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/fraunces@latest/files/fraunces-latin-600-normal.woff2",
+    "archivo": "propuestas/fuentes/fraunces-latin-600-normal.woff2",
+    "bytes": 18096,
+    "sha256": "3a1de7711d147bad4422825045f87597fd77cca72e7c96d3b0a81735d00dda82",
+    "fecha": "2026-11-02T17:56:03.592Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/barlow-condensed@latest/files/barlow-condensed-latin-700-normal.woff2",
+    "archivo": "propuestas/fuentes/barlow-condensed-latin-700-normal.woff2",
+    "bytes": 22444,
+    "sha256": "3787a5a419171630e6890cfa47c4da067474d005cd0ff8dc11ec090fdc3ee2b8",
+    "fecha": "2026-11-02T17:56:03.653Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/bodoni-moda@latest/files/bodoni-moda-latin-600-normal.woff2",
+    "archivo": "propuestas/fuentes/bodoni-moda-latin-600-normal.woff2",
+    "bytes": 14952,
+    "sha256": "a4975772d313f22af5758888ce83dad5001e9a3afb9cf8bde805ad1c5caeaacc",
+    "fecha": "2026-11-02T17:56:03.718Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/space-grotesk@latest/files/space-grotesk-latin-700-normal.woff2",
+    "archivo": "propuestas/fuentes/space-grotesk-latin-700-normal.woff2",
+    "bytes": 12840,
+    "sha256": "35f8aec56cfd5cbfdb03cc68733a54a0b05bb3617ffcd5fd332badc0b045ca55",
+    "fecha": "2026-11-02T17:56:03.779Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/ibm-plex-mono@latest/files/ibm-plex-mono-latin-400-normal.woff2",
+    "archivo": "propuestas/fuentes/ibm-plex-mono-latin-400-normal.woff2",
+    "bytes": 14708,
+    "sha256": "08949f728dc52d528e69b1667d15c89a5686a4ee9a296ff90983985f99c380f7",
+    "fecha": "2026-11-02T17:56:03.853Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/bricolage-grotesque@latest/files/bricolage-grotesque-latin-700-normal.woff2",
+    "archivo": "propuestas/fuentes/bricolage-grotesque-latin-700-normal.woff2",
+    "bytes": 22384,
+    "sha256": "4c373ce3c1cca41c864eb3e27c059a59fc6310547ab9c9b6cd780d387ba24206",
+    "fecha": "2026-11-02T17:56:03.918Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/dm-sans@latest/LICENSE",
+    "archivo": "propuestas/fuentes/dm-sans-LICENSE.txt",
+    "bytes": 4502,
+    "sha256": "6fbd040a29c2037a765dfb9f2561e9965b5c95c6dcb5dce516089d63d5f17af7",
+    "fecha": "2026-11-02T17:56:03.973Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/archivo-black@latest/LICENSE",
+    "archivo": "propuestas/fuentes/archivo-black-LICENSE.txt",
+    "bytes": 4398,
+    "sha256": "4cafdbbd100af37a23805af09b7068e4daafb4516dc3d6d52436f4a9d7b4c0d3",
+    "fecha": "2026-11-02T17:56:04.031Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/instrument-serif@latest/LICENSE",
+    "archivo": "propuestas/fuentes/instrument-serif-LICENSE.txt",
+    "bytes": 4532,
+    "sha256": "b6106a757902d2d412e09d94dc4a226fe3da80485208a98003969f1b8b6b1d74",
+    "fecha": "2026-11-02T17:56:04.091Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/fraunces@latest/LICENSE",
+    "archivo": "propuestas/fuentes/fraunces-LICENSE.txt",
+    "bytes": 4504,
+    "sha256": "cd3384cafac6f2bddc3955273958a2e029f97027c8037ac539ef5744a77b579e",
+    "fecha": "2026-11-02T17:56:04.157Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/barlow-condensed@latest/LICENSE",
+    "archivo": "propuestas/fuentes/barlow-condensed-LICENSE.txt",
+    "bytes": 6167,
+    "sha256": "046ee27d8bddc6b6ee08eee53c96dbf3ec1f6df561644e018507dd8ffcb11d31",
+    "fecha": "2026-11-02T17:56:04.218Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/bodoni-moda@latest/LICENSE",
+    "archivo": "propuestas/fuentes/bodoni-moda-LICENSE.txt",
+    "bytes": 4526,
+    "sha256": "6c64f717433eadd29b058d6254fe25c1ee2d249ce3772f843bb21f73285779c2",
+    "fecha": "2026-11-02T17:56:04.285Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/space-grotesk@latest/LICENSE",
+    "archivo": "propuestas/fuentes/space-grotesk-LICENSE.txt",
+    "bytes": 4401,
+    "sha256": "18a4de52385f6b988782639d5d0cc1326e5a8c2de9a7f01d7b20d9aedcc60943",
+    "fecha": "2026-11-02T17:56:04.346Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/ibm-plex-mono@latest/LICENSE",
+    "archivo": "propuestas/fuentes/ibm-plex-mono-LICENSE.txt",
+    "bytes": 5299,
+    "sha256": "23b0a9d0c6d3f140a0b77e483c5cfa6bba574325ef5cb189ed9f2fec4884533f",
+    "fecha": "2026-11-02T17:56:04.408Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/@fontsource/bricolage-grotesque@latest/LICENSE",
+    "archivo": "propuestas/fuentes/bricolage-grotesque-LICENSE.txt",
+    "bytes": 4401,
+    "sha256": "923f4ddf0fd39f9b7794ab0df7332f3d95dc43e8ad7ec2289d6d9e8491177f51",
+    "fecha": "2026-11-02T17:56:04.469Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/star.svg",
+    "archivo": "propuestas/iconos/star.svg",
+    "bytes": 664,
+    "sha256": "8169933b68b55d52313fd768386a435038f77dcc49acd198fb5afa965b26ce8b",
+    "fecha": "2026-11-02T17:56:04.526Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/check.svg",
+    "archivo": "propuestas/iconos/check.svg",
+    "bytes": 316,
+    "sha256": "538432eec072ceeccf5a7aacf347a2ad2bff9937d203dbd0b4f4245d7accd93c",
+    "fecha": "2026-11-02T17:56:04.584Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/printer.svg",
+    "archivo": "propuestas/iconos/printer.svg",
+    "bytes": 485,
+    "sha256": "b3aa8dacd9a4a704e0917b4198538d844bcb2a6bfb7c4af3225f2e9acd1c5a77",
+    "fecha": "2026-11-02T17:56:04.642Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/download.svg",
+    "archivo": "propuestas/iconos/download.svg",
+    "bytes": 428,
+    "sha256": "f68a21e11115edc0aef51ac6f8f4618e14d2b92055f1cb9f5d670efc696bea85",
+    "fecha": "2026-11-02T17:56:04.695Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/arrow-up-right.svg",
+    "archivo": "propuestas/iconos/arrow-up-right.svg",
+    "bytes": 346,
+    "sha256": "7a58fb69deddd385b9bd47b406d3e9f3ccfbe11b319efcd5071cbd5b19c1bd4f",
+    "fecha": "2026-11-02T17:56:04.753Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/external-link.svg",
+    "archivo": "propuestas/iconos/external-link.svg",
+    "bytes": 417,
+    "sha256": "15432d67349662d1427ca5b8cc52d4152a9a893a251a842a817de1974a6b5766",
+    "fecha": "2026-11-02T17:56:04.813Z"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/LICENSE",
+    "archivo": "propuestas/iconos/LICENSE.txt",
+    "bytes": 880,
+    "sha256": "1e7290b35280a048667bbf0ebabac1c7fd52a75300e8b2946ac165715997f2bc",
+    "fecha": "2026-11-02T17:56:04.871Z"
+  }
+]

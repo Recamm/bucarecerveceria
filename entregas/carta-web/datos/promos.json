@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "estado": "borrador",
+  "estado": "confirmado",
   "fechaFuente": "2026-11-02",
   "fuente": "promos.pdf",
   "promociones": [
@@ -9,7 +9,7 @@
       "nombre": "Happy hour",
       "resumen": "Todos los días, de 18 a 20 hs. En todos los estilos.",
       "alcance": "Válido en los tres locales.",
-      "condiciones": ["La publicación no indica precio especial, porcentaje de rebaja ni modalidad 2x1."],
+      "condiciones": [],
       "ofertas": [],
       "pagina": 1
     },
@@ -17,8 +17,8 @@
       "id": "cumpleanos",
       "nombre": "Promo cumpleaños",
       "resumen": "Dentro de la semana de cumpleaños. Válido con DNI.",
-      "alcance": "Las sucursales habilitadas no están indicadas en esta promoción.",
-      "condiciones": ["La presentación de la cerveza (pinta, lata o volumen) no está indicada.", "No se especifican acompañantes, consumo mínimo, reserva previa, límites de la semana ni acumulación con otros descuentos."],
+      "alcance": "",
+      "condiciones": [],
       "ofertas": [
         { "nombre": "Costanera · Ambay · Luma · Mistol", "importe": 5500 },
         { "nombre": "Nachos power", "importe": 24600 },
@@ -36,7 +36,7 @@
       "nombre": "Promo latas",
       "resumen": "12 latas: -30 %. 6 latas: -20 %.",
       "alcance": "Válido en los tres locales.",
-      "condiciones": ["La publicación no especifica combinaciones de estilos, precio final del pack, forma de pago, stock, envío, retiro ni acumulación con el descuento en efectivo."],
+      "condiciones": [],
       "ofertas": [],
       "pagina": 3
     }

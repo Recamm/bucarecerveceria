@@ -33,17 +33,17 @@ Ejemplo de precio editable:
 { "presentacion": "Pinta", "importe": 7300 }
 ```
 
-Los importes son números enteros en pesos, sin `$` ni separadores. `null` significa **precio no informado**: se muestra así, nunca como cero ni como agotado. Las marcas vegetarianas sólo reflejan la `v` de la carta; no certifican alérgenos ni aptitud vegana/celíaca.
+Los importes son números enteros en pesos, sin `$` ni separadores. `null` significa **precio no cargado**: se muestra como «Consultar», nunca como cero ni como agotado. Las marcas vegetarianas sólo reflejan la `v` de la carta; no certifican alérgenos ni aptitud vegana/celíaca.
 
 No editar los HTML generados: se reemplazan al regenerar. El generador valida todas las fuentes antes de escribir y rechaza importes negativos, IDs repetidos, fechas inválidas y contactos fuera de WhatsApp. Los textos se tratan como texto, no HTML.
 
-## Borrador y procedencia
+## Precios confirmados y procedencia
 
-Los datos provienen de los cuatro PDFs públicos archivados el **02/11/2026**; el usuario autorizó usarlos como borrador. `estado` permanece en `borrador`: muestra el aviso y añade `noindex`. Esto no es un control de privacidad ni confirma vigencia. Cambiar a `confirmado` y actualizar `fechaFuente` sólo después de revisar realmente la carta con el bar.
+Los datos provienen de los cuatro PDFs públicos archivados el **02/11/2026**. El usuario confirmó los precios el **03/11/2026** y pidió retirar las advertencias editoriales. Los cuatro JSON tienen `estado: confirmado`; las páginas no muestran avisos de borrador. `fechaFuente` conserva la fecha de la fuente, no la fecha de confirmación. Si un documento vuelve explícitamente a `borrador`, el generador recupera su aviso y `noindex`.
 
-Se preservan todos los importes de las doce páginas de cada carta, incluidos el precio de la sour en Tren y su ausencia en Florida/Olivos. La moneda ARS se interpreta por contexto, pendiente de confirmación. Se mantienen erratas de las fuentes, sin convertirlas en información nueva.
+Se preservan todos los importes de las doce páginas de cada carta, incluidos el precio de la sour en Tren y su ausencia en Florida/Olivos. Los precios se presentan en ARS. Se mantienen erratas de las fuentes, sin convertirlas en información nueva.
 
-Happy hour no se anuncia como 2x1, la promo cumpleaños no se extiende a locales no indicados y los descuentos no se suman entre sí. Las condiciones no publicadas se señalan en vez de inventarse.
+El 10% de descuento en efectivo y el happy hour de 18 a 20 hs están siempre visibles antes del buscador, sin desplegables. Se conservan las condiciones reales de cada promoción, como el DNI para cumpleaños. Las notas sobre información no especificada en la investigación no se muestran al cliente; no se inventan beneficios, sucursales habilitadas ni acumulaciones.
 
 [scripts/importar-cartas.mjs](scripts/importar-cartas.mjs) se usó para la conversión inicial y requiere los textos archivados del repositorio. No forma parte de la actualización normal. Se niega a sobrescribir datos existentes salvo `--sobrescribir`, opción que descarta las ediciones de esos JSON: no usarla para cambiar precios.
 
@@ -51,4 +51,4 @@ Happy hour no se anuncia como 2x1, la promo cumpleaños no se extiende a locales
 
 Desde la raíz del repositorio: `node --test entregas/carta-web/scripts/contenido.test.mjs` y `node entregas/verificar.mjs`. Resultados y capturas en la carpeta de verificación de entregas. Revisión en Chromium a 1440/768/390/320 px; Safari y dispositivos físicos no comprobados.
 
-Para alojar sólo el sitio, publicar HTML/CSS/JavaScript/assets, no los scripts de trabajo ni las pruebas. No se configuró dominio ni alojamiento. Confirmar precios, promociones, marca y contactos antes de hacer pública esta versión.
+Para alojar sólo el sitio, publicar HTML/CSS/JavaScript/assets, no los scripts de trabajo ni las pruebas. No se configuró dominio ni alojamiento y no se publicó esta entrega. La confirmación de precios no autoriza por sí sola el despliegue.

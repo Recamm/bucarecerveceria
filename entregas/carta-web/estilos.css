@@ -21,9 +21,9 @@ input:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px 
 .page-heading { padding-top: 30px; }
 .page-heading h1 { font: 400 64px/1.1 'Instrument Serif', serif; color: var(--red); overflow-wrap: anywhere; }
 .page-heading > p:not(.draft-note) { font-size: 14px; margin-top: 8px; color: var(--muted); }
-.conditions { font-size: 13px; margin-top: 24px; padding: 14px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.conditions summary { cursor: pointer; min-height: 44px; padding: 12px 0; }
-.conditions ul { margin-block: 10px 0; padding-left: 20px; color: var(--muted); }
+.conditions { margin-top: 24px; padding: 18px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.conditions ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 32px; list-style: none; margin: 0; padding: 0; font-size: 15px; font-weight: 600; }
+.conditions li:first-child { color: var(--red); }
 .search-form { margin-top: 24px; max-width: 570px; }
 .search-form label { display: block; margin-bottom: 8px; font-size: 14px; }
 .search-form > div { display: flex; gap: 10px; }
@@ -79,6 +79,7 @@ input:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px 
   .section-nav > a { font-size: 13px; }
   .page-heading { padding-top: 24px; }
   .page-heading h1 { font-size: 44px; }
+  .conditions ul { grid-template-columns: minmax(0, 1fr); }
   .menu-layout { display: block; margin-top: 22px; }
   .category-nav { top: 0; z-index: 5; padding-top: env(safe-area-inset-top, 0px); padding-bottom: 12px; border-bottom: 1px solid var(--line); }
   .category-links { flex-direction: row; justify-content: space-between; gap: 8px; }

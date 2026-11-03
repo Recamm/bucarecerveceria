@@ -84,8 +84,19 @@ test('la validación rechaza importes negativos, IDs repetidos y contactos ajeno
 test('el HTML incluye todos los productos y representa el guion sin precio cero ni falta de stock', () => {
   const html = renderCarta(florida);
   assert.equal((html.match(/data-producto=/g) || []).length, 116);
-  assert.equal(html.includes('No informado'), true);
+  assert.equal(html.includes('Consultar'), true);
   assert.equal(html.includes('Agotado'), false);
-  assert.equal(html.includes('Borrador'), true);
+  assert.equal(html.includes('Borrador'), false);
+  assert.equal(html.includes('pendientes de confirmar'), false);
+  assert.equal(html.includes('<details class="conditions"'), false);
+  assert.equal(html.includes('<section class="conditions"'), true);
+  for (const condition of florida.condiciones) assert.equal(html.includes(escapeHTML(condition)), true);
   assert.equal(html.includes('type="search"'), true);
+});
+
+test('las advertencias de borrador sólo aparecen si los datos vuelven a ese estado', () => {
+  assert.equal(florida.estado, 'confirmado');
+  const document = structuredClone(florida);
+  document.estado = 'borrador';
+  assert.equal(renderCarta(document).includes('Borrador'), true);
 });

@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-03T11:53:56.105Z",
+  "browser": "Chromium",
+  "documents": [
+    {
+      "document": "menu-florida",
+      "format": "A4",
+      "pages": 6,
+      "products": 116,
+      "embeddedFonts": true,
+      "overflow": []
+    },
+    {
+      "document": "menu-olivos",
+      "format": "A4",
+      "pages": 6,
+      "products": 116,
+      "embeddedFonts": true,
+      "overflow": []
+    },
+    {
+      "document": "menu-tren",
+      "format": "A4",
+      "pages": 6,
+      "products": 116,
+      "embeddedFonts": true,
+      "overflow": []
+    },
+    {
+      "document": "promos",
+      "format": "A4",
+      "pages": 3,
+      "products": 0,
+      "embeddedFonts": true,
+      "overflow": []
+    }
+  ],
+  "widths": [
+    1440,
+    768,
+    390,
+    320
+  ],
+  "contentMatchesSource": true,
+  "printButton": true,
+  "noJavaScriptReading": true,
+  "errors": []
+}

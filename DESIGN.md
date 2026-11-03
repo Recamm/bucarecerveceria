@@ -70,3 +70,19 @@ Mejora solicitada: indicar el avance y la ubicación actual dentro de la carta, 
 Los saltos reservan el alto real de la barra y el scroll-padding existente para no ocultar títulos. El indicador se actualiza al filtrar, al cambiar el tamaño y durante el desplazamiento, agrupando el trabajo en requestAnimationFrame. Sin resultados no hay sección activa; sin JavaScript siguen funcionando los enlaces y la navegación fija, sin indicador dinámico.
 
 Verificado en 1440/768/390/320 px: desplazamiento, sección y subcategoría activas, progreso hasta 100%, anclas móviles sin solapamiento, filtros/limpieza y navegación móvil sin JavaScript. Las otras entregas y el contenido comercial no cambian.
+
+## Cartas imprimibles: Índice
+
+Pedido del 03/11/2026: nuevas cartas para imprimir, en otra carpeta, siguiendo el estilo aprobado. Entrega en `entregas/cartas-imprimibles/`, sin alterar Linktree, carta web ni muestras. Formato reversible elegido: A4 vertical, blanco #FFFFFF, rojo #C1282D, texto #242724 y separadores #DEDFD9. Instrument Serif para marca y apartados, DM Sans para productos y precios. Logo real pequeño, sin fotografía, fondos de tinta ni decoración adicional.
+
+Seis hojas por sucursal: cervezas; cocina para compartir; burgers/platos/infantil; menú ejecutivo y combos; bebidas; Bucafé. Dos columnas, precios alineados, condiciones junto a su categoría, cabecera de sucursal y folio en cada hoja. Tres hojas adicionales de promociones. Mantener el aviso de borrador, precios desconocidos y todas las aclaraciones comerciales, sin inventar beneficios.
+
+Generar HTML estático y PDF desde los JSON existentes de carta-web, única fuente editable. Copiar fuentes, logo y licencias dentro de la nueva entrega. Verificar cobertura de categorías/productos/precios, recursos locales, área A4 sin recortes, número real de páginas PDF y lectura de la vista HTML en escritorio/celular. Revisar visualmente hojas exportadas antes del cierre.
+
+## Precios confirmados y beneficios visibles
+
+Actualización del 03/11/2026: el usuario confirma los precios y pide retirar el aviso de borrador y las notas editoriales de investigación, tanto online como en papel. Esta decisión reemplaza el estado inicial de borrador de las entregas anteriores. Los cuatro JSON pasan a `confirmado`, sin cambiar importes, productos ni condiciones comerciales reales. Los campos sin importe siguen sin inventarse y se muestran como «Consultar».
+
+El 10% de descuento en efectivo y el happy hour de 18 a 20 hs se muestran directamente antes del buscador en la web, sin details/summary; en papel aparecen destacados en cada encabezado, no como letra pequeña al pie. Se eliminan las aclaraciones sobre lo que la publicación no especificaba, la fecha de fuente del contenido público y las advertencias de los índices. Se conserva la procedencia dentro de los datos y documentos de trabajo, y las condiciones reales como DNI y semana de cumpleaños. No se inventa un 2x1 ni se amplían promociones a sucursales desconocidas.
+
+Verificación realizada: doce pruebas de contenido, recorrido web a cuatro anchos con beneficios en el primer viewport, búsqueda y navegación sin JavaScript; exportación de los cuatro PDF A4, beneficios en cada página de carta y ausencia de notas editoriales. Se mantienen seis páginas por sucursal, tres de promociones y todos los productos y precios.

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "estado": "borrador",
+  "estado": "confirmado",
   "fechaFuente": "2026-11-02",
   "moneda": "ARS",
   "fuente": "menu-tren.pdf",
@@ -11,8 +11,8 @@
     "whatsapp": "https://wa.me/5491165686545"
   },
   "condiciones": [
-    "-10% en efectivo, según carta publicada.",
-    "Happy hour de 18 a 20 hs en todos los estilos. La carta no indica el beneficio concreto."
+    "10% de descuento en efectivo.",
+    "Happy hour de 18 a 20 hs en todos los estilos."
   ],
   "categorias": [
     {

@@ -1,11 +1,12 @@
 # Bucaré: investigación, manual y propuestas
 
-Entrega del **02/11/2026**. Diseño aprobado: **Índice**. Incluye dos sitios independientes: reemplazo de Linktree y cartas/promociones web. Las muestras originales se conservan intactas; ninguna entrega está publicada.
+Entrega inicial del **02/11/2026**, con cartas imprimibles añadidas el **03/11/2026**. Diseño aprobado: **Índice**. Incluye dos sitios independientes, reemplazo de Linktree y cartas/promociones web, más una carpeta separada para impresión. Las muestras originales se conservan intactas; ninguna entrega está publicada.
 
 ## Abrir primero
 
 - [Índice: reemplazo de Linktree](entregas/linktree/index.html).
 - [Índice: cartas y promociones web](entregas/carta-web/index.html).
+- [Índice: nuevas cartas imprimibles y PDF A4](entregas/cartas-imprimibles/index.html).
 - [Documentación de las dos entregas](entregas/README.md).
 - [Muestras minimalistas conservadas](muestras/minimal/index.html).
 - [Serie anterior: cinco variantes de rojo, madera y pizarra](muestras/rojo-origen/index.html).
@@ -21,9 +22,15 @@ El catálogo abre directamente como archivo HTML, sin servidor, y usa fuentes, f
 
 Las carpetas `entregas/linktree/` y `entregas/carta-web/` tienen sus propios recursos, sin dependencias de ejecución externas. El primer sitio conserva exactamente los siete destinos originales, sin selector de propuestas ni JavaScript. El segundo cambia sólo los cuatro destinos de cartas/promos por páginas HTML y mantiene los tres WhatsApp.
 
-Cada carta web conserva 22 categorías y 116 productos, con precios por sucursal, descripciones y adicionales. Las tres promociones incluyen sus condiciones conocidas. Búsqueda progresiva, lectura sin JavaScript y datos JSON editables sin panel. El usuario autorizó el contenido descargado **como borrador**: faltan confirmar precios, promociones y moneda antes de publicar.
+Cada carta web conserva 22 categorías y 116 productos, con precios por sucursal, descripciones y adicionales. Las tres promociones incluyen sus condiciones conocidas. Búsqueda progresiva, lectura sin JavaScript y datos JSON editables sin panel. El usuario confirmó los precios el **03/11/2026**: se retiraron los avisos de borrador y las notas editoriales, y el descuento en efectivo y el happy hour son visibles sin desplegables.
 
 [Guía de mantenimiento](entregas/carta-web/README.md) y [resultados de la verificación](entregas/verificacion/resultado.json). Se verificó que el original no cambió y que el reemplazo conserva el diseño aprobado. Las seis páginas se comprobaron a 1440/768/390/320 px. No se enviaron mensajes ni se desplegó ninguna versión.
+
+## Cartas imprimibles
+
+Nueva carpeta separada con el estilo Índice, dos columnas, blanco y rojo, tipografías locales y precios alineados. [Florida](entregas/cartas-imprimibles/menu-florida.pdf), [Olivos](entregas/cartas-imprimibles/menu-olivos.pdf) y [Tren](entregas/cartas-imprimibles/menu-tren.pdf): 6 páginas A4 por sucursal, con las 22 categorías y 116 productos completos. [Promociones](entregas/cartas-imprimibles/promos.pdf): 3 páginas A4. Todos incluyen HTML y PDF, sin cambiar las otras entregas.
+
+[Abrir las cartas](entregas/cartas-imprimibles/index.html), [guía de impresión y mantenimiento](entregas/cartas-imprimibles/README.md) y [verificación](entregas/cartas-imprimibles/verificacion/resultado.json). Se reutilizan los datos editables de carta-web, con precios confirmados y sin advertencias editoriales. El descuento en efectivo y el happy hour están destacados en el encabezado de cada página de carta.
 
 ## Exploración minimalista
 
@@ -103,6 +110,7 @@ Hay capturas individuales de las 12 variantes en escritorio y celular dentro de 
 | muestras/minimal | Exploración conservada: cuatro variantes, incluida la original de Índice |
 | entregas/linktree | Índice independiente con los siete destinos externos |
 | entregas/carta-web | Índice con cartas/promos HTML, datos editables y generación estática |
+| entregas/cartas-imprimibles | Cartas con estilo Índice en HTML/PDF A4, generador y verificación de impresión |
 | entregas/verificacion | Pruebas consolidadas y capturas de ambas entregas |
 | assets/rojo-origen | Logo Instagram original/ampliado, fotos WebP, madera, pizarra, dibujos y procedencia |
 | investigacion/herramientas | Dependencias locales de exportación y pruebas; no forman parte de la web del restaurante |
@@ -111,7 +119,7 @@ Hay capturas individuales de las 12 variantes en escritorio y celular dentro de 
 
 No se promete información inaccesible: no se pudo revisar el feed completo de Instagram, toda la galería/opiniones de Maps, horarios semanales ni interiores de las otras dos sucursales. Los metadatos públicos de Instagram sí se recuperaron. La carpeta conserva **todo el contenido de los cuatro PDFs**, no solamente sus miniaturas.
 
-Precios y promociones están fechados al consultar, no confirmados comercialmente. No se anuncia happy hour como 2x1, no se combinan descuentos y no se interpreta un guion de precio como stock. Logos recuperados no son vectores ni originales de imprenta. Fotos para investigación; confirmar permisos y estado actual antes de publicar.
+Los informes y fuentes archivados conservan su estado histórico de investigación; los precios de las entregas actuales fueron confirmados por el usuario el 03/11/2026. No se anuncia happy hour como 2x1, no se combinan descuentos y no se interpreta un guion de precio como stock. Logos recuperados no son vectores ni originales de imprenta. Fotos para investigación; confirmar permisos y estado actual antes de publicar.
 
 Para completar lo bloqueado: exportación oficial de Meta entregada por el titular, horarios y condiciones escritos, logo vectorial, fotos actuales y enlaces Maps de Olivos/Tren. **No hace falta entregar contraseñas.**
 
@@ -124,6 +132,13 @@ node --test entregas/carta-web/scripts/contenido.test.mjs
 node entregas/carta-web/scripts/generar.mjs
 node entregas/carta-web/scripts/generar.mjs --comprobar
 node entregas/verificar.mjs
+```
+
+Para regenerar y verificar las nuevas cartas imprimibles:
+
+```sh
+node entregas/cartas-imprimibles/generar.mjs
+node entregas/cartas-imprimibles/exportar.mjs
 ```
 
 Para comprobar la serie minimalista, usando el runner y el Playwright/Chromium ya instalados:
@@ -152,4 +167,4 @@ Las primeras cuatro órdenes vuelven a consultar fuentes externas y pueden cambi
 
 Para repetir también las capturas externas de diseño: `node investigacion/exportar.mjs --referencias`. La última pasada registró timeouts de escritorio en tres referencias; los seis HTML y las capturas integradas anteriores siguen archivados. La exportación normal no necesita acceder a esas webs. Navegador: `node investigacion/herramientas/node_modules/playwright/cli.js install chromium`.
 
-El usuario aprobó **Índice** y su separación en dos entregas. No se rediseñó el logo. La muestra original, las otras variantes y la investigación permanecen archivadas; sólo falta confirmar contenido comercial y publicación.
+El usuario aprobó **Índice**, sus dos sitios y las cartas imprimibles, y confirmó los precios el 03/11/2026. No se rediseñó el logo. La muestra original, las otras variantes y la investigación permanecen archivadas. Ninguna entrega se publicó.

@@ -119,9 +119,18 @@ try {
       }
       if (relative.includes('carta-web/')) {
         assert.equal(await page.locator('a[href*="drive.google"],a[href$=".pdf"]').count(), 0);
-        assert.equal(await page.locator('meta[name=robots]').getAttribute('content'), 'noindex');
+        assert.equal(await page.locator('meta[name=robots]').count(), 0);
+        assert.equal(await page.locator('.draft-note').count(), 0);
+        assert.doesNotMatch(await page.locator('body').textContent(), /Borrador|pendientes de confirmar|La publicación no|No se especifican|no está indicada|no están indicadas|Fuente del/u);
       }
-      if (relative.includes('/menu-')) assert.equal(state.products, 116);
+      if (relative.includes('/menu-')) {
+        assert.equal(state.products, 116);
+        assert.equal(await page.locator('details.conditions, .conditions summary').count(), 0);
+        assert.equal(await page.locator('.conditions').isVisible(), true);
+        assert.deepEqual(await page.locator('.conditions li').allTextContents(), ['10% de descuento en efectivo.', 'Happy hour de 18 a 20 hs en todos los estilos.']);
+        const bounds = await page.locator('.conditions').boundingBox();
+        assert.ok(bounds.y >= 0 && bounds.y + bounds.height <= page.viewportSize().height, 'Beneficios visibles sin desplegar ni desplazarse');
+      }
       if (width === 1440 || width === 390) await page.screenshot({ path: path.join(output, `${relative.replaceAll('/', '-').replace('.html', '')}-${width}.png`), fullPage: !relative.includes('/menu-') });
       result.paginas.push({ pagina: relative, ancho: width, ...state, localLinks: state.localLinks.length });
     }
@@ -150,20 +159,21 @@ try {
   assert.equal(await page.locator('[data-producto]:visible').count(), 1);
   assert.ok((await page.locator('[data-producto]:visible').textContent()).includes('8.500'));
   await page.goto(url('carta-web/menu-florida.html') + '?buscar=misterio');
-  assert.ok((await page.locator('[data-producto]:visible').textContent()).includes('No informado'));
+  assert.ok((await page.locator('[data-producto]:visible').textContent()).includes('Consultar'));
   await page.goto(url('carta-web/promos.html'));
   assert.equal(await page.locator('.promotion').count(), 3);
   assert.equal(await page.locator('.promotion tbody tr').count(), 8);
   await page.goto(url('linktree/index.html'));
   await page.keyboard.press('Tab');
   assert.equal(await page.locator('.skip-link').evaluate(element => element === document.activeElement), true);
-  const noScript = await browser.newContext({ javaScriptEnabled: false });
+  const noScript = await browser.newContext({ javaScriptEnabled: false, reducedMotion: 'reduce' });
   const fallback = await noScript.newPage();
   await fallback.goto(url('carta-web/menu-florida.html'));
   assert.equal(await fallback.locator('[data-producto]').count(), 116);
   assert.equal(await fallback.locator('.search-form').isVisible(), false);
   assert.equal(await fallback.locator('.reading-state').isVisible(), false);
   await fallback.setViewportSize({ width: 390, height: 844 });
+  await settle(fallback);
   await fallback.locator('.category-links a[href="#cocina"]').click();
   const fallbackPosition = await fallback.locator('.category-nav').evaluate(element => element.getBoundingClientRect().top);
   assert.ok(fallbackPosition >= -1 && fallbackPosition <= 1, 'Categorías móviles fijas también sin JavaScript');

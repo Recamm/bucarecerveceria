@@ -1,0 +1,13 @@
+@import url('linktree/estilos.css');
+
+.destination-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.destination-links > a,
+.destination-links > a:first-child { grid-column: auto; min-height: 96px; border-bottom: 1px solid var(--line); }
+.destination-links strong { color: var(--red); }
+
+@media (max-width: 760px) {
+  .destination-links { grid-template-columns: minmax(0, 1fr); }
+  .destination-links > a,
+  .destination-links > a:first-child { min-height: 72px; border-bottom: 0; }
+  .destination-links > a:last-child { border-bottom: 1px solid var(--line); }
+}
